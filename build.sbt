@@ -27,8 +27,3 @@ lazy val root = (project in file("."))
     // Source: https://mvnrepository.com/artifact/org.apache.spark/spark-core
   
   )
-
-val versionSpark = "3.5.6"
-
-libraryDependencies ++= Seq("org.apache.spark" %% "spark-core" % versionSpark,
- "org.apache.spark" %% "spark-sql" % versionSpark )
