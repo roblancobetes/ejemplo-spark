@@ -1,2 +1,171 @@
 2026.02.25 15:30:39 INFO  Started: Metals version 1.6.5 in folders 'C:\Users\robla\Desktop\ejemplospark' for client Visual Studio Code 1.109.5.
 2026.02.25 15:30:39 INFO  Memory monitor started
+2026.02.26 11:25:01 INFO  Started: Metals version 1.6.5 in folders 'C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark' for client Visual Studio Code 1.109.5.
+2026.02.26 11:25:01 INFO  Memory monitor started
+2026.02.26 11:25:05 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.26 11:25:05 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+feb 26, 2026 11:25:06 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+feb 26, 2026 11:25:06 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+2026.02.26 11:25:06 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.26 11:25:08 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.26 11:25:08 WARN  no build target for: C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\build.sbt
+2026.02.26 11:25:08 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.26 11:25:08 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.26 11:25:14 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.26 11:25:14 WARN  no build target for: C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.02.26 11:25:14 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.26 11:25:14 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.26 11:25:15 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.26 11:25:15 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.26 11:25:15 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.26 11:25:17 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.26 11:25:18 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.26 11:25:18 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.26 11:25:18 WARN  no build target for: C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\build.sbt
+2026.02.26 11:25:18 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.26 11:25:18 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.26 11:25:18 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.26 11:25:19 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.26 11:25:20 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.26 11:25:25 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.26 11:25:32 INFO  Shutting down server
+2026.02.26 11:25:32 INFO  Memory monitor stopped
+2026.02.26 11:25:32 INFO  shutting down Metals
+2026.02.26 11:25:32 INFO  Exiting server
+2026.02.26 11:26:01 INFO  Started: Metals version 1.6.5 in folders 'C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark' for client Visual Studio Code 1.109.5.
+2026.02.26 11:26:01 INFO  Memory monitor started
+2026.02.26 11:26:01 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.26 11:26:02 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.26 11:26:02 INFO  skipping build import with status 'Dismissed'
+2026.02.26 11:26:02 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.26 11:26:02 WARN  no build target for: C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\build.sbt
+2026.02.26 11:26:04 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.26 11:26:05 INFO  time: code lens generation in 2.67s
+2026.02.26 11:26:15 WARN  no build target for: C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\build.sbt
+2026.02.26 11:26:15 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.26 11:26:15 INFO  skipping build import with status 'Dismissed'
+2026.02.26 11:26:15 INFO  Shutting down server
+2026.02.26 11:26:15 INFO  Memory monitor stopped
+2026.02.26 11:26:15 INFO  shutting down Metals
+2026.02.26 11:26:15 INFO  Exiting server
+2026.02.27 13:24:11 INFO  Started: Metals version 1.6.5 in folders 'C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark' for client Visual Studio Code 1.109.5.
+2026.02.27 13:24:11 INFO  Memory monitor started
+2026.02.27 13:24:11 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.27 13:24:12 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.27 13:24:13 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.27 13:24:13 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.27 13:24:14 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.27 13:24:14 INFO  running 'C:\Program Files\Java\jdk-17\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\RODRIG~1\AppData\Local\Temp\metals10529425516970203772\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2026.02.27 13:24:15 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\project\project\metals.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.27 13:24:15 WARN  no build target for: C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\project\metals.sbt
+2026.02.27 13:24:15 WARN  no build target for: C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\project\project\metals.sbt
+2026.02.27 13:24:15 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.27 13:24:15 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\project\metals.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.27 13:24:16 INFO  [info] welcome to sbt 1.12.4 (Oracle Corporation Java 17.0.12)
+2026.02.27 13:24:17 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.27 13:24:18 INFO  [info] loading settings for project ejemplo-spark-build-build from metals.sbt...
+2026.02.27 13:24:18 INFO  [info] loading project definition from C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\project\project
+2026.02.27 13:24:21 INFO  [info] loading settings for project ejemplo-spark-build from metals.sbt...
+2026.02.27 13:24:21 INFO  [info] loading project definition from C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\project
+2026.02.27 13:24:23 INFO  [success] Generated .bloop\ejemplo-spark-build.json
+2026.02.27 13:24:23 INFO  [info] compiling 1 Scala source to C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\project\target\scala-2.12\sbt-1.0\classes ...
+2026.02.27 13:24:25 INFO  [info] done compiling
+2026.02.27 13:24:25 INFO  [success] Total time: 4 s, completed 27 feb 2026 13:24:25
+2026.02.27 13:24:25 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.27 13:24:25 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.27 13:24:25 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.27 13:24:25 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.27 13:24:27 INFO  [info] loading settings for project root from build.sbt...
+2026.02.27 13:24:27 INFO  [info] set current project to ejemploSpark (in build file:/C:/Users/RodrigoBlanco(AlfaFo/Desktop/ejemplo-spark/)
+2026.02.27 13:24:27 INFO  [warn] there's a key that's not used by any other settings/tasks:
+2026.02.27 13:24:27 INFO  [warn]  
+2026.02.27 13:24:27 INFO  [warn] * ThisBuild / classLoaderLayeringStrategy
+2026.02.27 13:24:27 INFO  [warn]   +- C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\build.sbt:19
+2026.02.27 13:24:27 INFO  [warn]  
+2026.02.27 13:24:27 INFO  [warn] note: a setting might still be used by a command; to exclude a key from this `lintUnused` check
+2026.02.27 13:24:27 INFO  [warn] either append it to `Global / excludeLintKeys` or call .withRank(KeyRanks.Invisible) on the key
+2026.02.27 13:24:27 INFO  [success] Generated .bloop\root-test.json
+2026.02.27 13:24:27 INFO  [success] Generated .bloop\root.json
+2026.02.27 13:24:27 INFO  [success] Total time: 0 s, completed 27 feb 2026 13:24:28
+2026.02.27 13:24:28 INFO  time: ran 'sbt bloopInstall' in 13s
+2026.02.27 13:24:28 INFO  Attempting to connect to the build server...
+2026.02.27 13:24:28 INFO  Found a Bloop server running
+2026.02.27 13:24:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\.metals\bsp.trace.json or C:\Users\RodrigoBlanco(AlfaFo\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.02.27 13:24:28 INFO  Attempting to connect to the build server...
+2026.02.27 13:24:28 INFO  Found a Bloop server running
+2026.02.27 13:24:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\project\.metals\bsp.trace.json or C:\Users\RodrigoBlanco(AlfaFo\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.02.27 13:24:28 INFO  time: Connected to build server in 0.3s
+2026.02.27 13:24:28 INFO  Connected to Build server: Bloop v2.0.18
+2026.02.27 13:24:30 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.27 13:24:35 INFO  time: indexed workspace in 6.74s
+2026.02.27 13:24:35 INFO  compiling ejemplo-spark-build (1 scala source)
+2026.02.27 13:24:35 INFO  Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.21. Compiling...
+2026.02.27 13:24:43 INFO  Compilation completed in 7.88s.
+2026.02.27 13:24:45 INFO  time: compiled ejemplo-spark-build in 10s
+2026.02.27 13:25:02 INFO  compiling root (1 scala source)
+2026.02.27 13:25:02 INFO  time: compiled root in 0.6s
+feb 27, 2026 1:25:04 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.02.27 13:26:23 INFO  Shutting down server
+2026.02.27 13:26:23 INFO  Memory monitor stopped
+2026.02.27 13:26:23 INFO  shutting down Metals
+2026.02.27 13:26:23 INFO  Shut down connection with build server.
+2026.02.27 13:26:23 INFO  Shut down connection with build server.
+2026.02.27 13:26:23 INFO  Exiting server
+2026.03.02 09:14:01 INFO  Started: Metals version 1.6.5 in folders 'C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark' for client Visual Studio Code 1.109.5.
+2026.03.02 09:14:01 INFO  Memory monitor started
+2026.03.02 09:14:01 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.03.02 09:14:01 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.02 09:14:03 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.02 09:14:03 INFO  Attempting to connect to the build server...
+2026.03.02 09:14:03 INFO  Found a Bloop server running
+2026.03.02 09:14:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\.metals\bsp.trace.json or C:\Users\RodrigoBlanco(AlfaFo\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.03.02 09:14:03 INFO  Attempting to connect to the build server...
+2026.03.02 09:14:03 INFO  Found a Bloop server running
+2026.03.02 09:14:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\project\.metals\bsp.trace.json or C:\Users\RodrigoBlanco(AlfaFo\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.03.02 09:14:03 INFO  time: Connected to build server in 0.56s
+2026.03.02 09:14:03 INFO  Connected to Build server: Bloop v2.0.18
+2026.03.02 09:14:06 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.03.02 09:14:08 INFO  time: indexed workspace in 3.99s
+2026.03.02 09:14:08 INFO  compiling root-test (1 scala source)
+2026.03.02 09:14:09 INFO  time: compiled root-test in 1.37s
+2026.03.02 09:14:10 INFO  time: code lens generation in 1.37s
+2026.03.02 09:14:10 INFO  time: code lens generation in 1.37s
+2026.03.02 09:15:59 INFO  Shutting down server
+2026.03.02 09:15:59 INFO  Memory monitor stopped
+2026.03.02 09:15:59 INFO  shutting down Metals
+2026.03.02 09:15:59 INFO  Shut down connection with build server.
+2026.03.02 09:15:59 INFO  Shut down connection with build server.
+2026.03.02 09:15:59 INFO  Exiting server
+2026.03.02 09:16:35 INFO  Started: Metals version 1.6.5 in folders 'C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark' for client Visual Studio Code 1.109.5.
+2026.03.02 09:16:35 INFO  Memory monitor started
+2026.03.02 09:16:35 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.03.02 09:16:35 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.02 09:16:36 INFO  Attempting to connect to the build server...
+2026.03.02 09:16:36 INFO  Found a Bloop server running
+2026.03.02 09:16:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\.metals\bsp.trace.json or C:\Users\RodrigoBlanco(AlfaFo\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.03.02 09:16:36 INFO  Attempting to connect to the build server...
+2026.03.02 09:16:36 INFO  Found a Bloop server running
+2026.03.02 09:16:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\project\.metals\bsp.trace.json or C:\Users\RodrigoBlanco(AlfaFo\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.03.02 09:16:36 INFO  time: Connected to build server in 0.58s
+2026.03.02 09:16:36 INFO  Connected to Build server: Bloop v2.0.18
+mar 02, 2026 9:16:37 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+2026.03.02 09:16:40 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.03.02 09:16:41 INFO  time: indexed workspace in 4.25s
+2026.03.02 09:16:46 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\project\project\metals.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.03.02 09:16:46 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\project\project\metals.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.03.02 09:16:46 WARN  no build target for: C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\project\project\metals.sbt
+2026.03.02 09:16:46 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\project\project\metals.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.03.02 09:16:46 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\project\project\metals.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.03.02 09:16:53 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\project\project\metals.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.03.02 09:16:54 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\project\metals.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.03.02 09:16:54 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\project\metals.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.03.02 09:16:54 WARN  no build target for: C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\project\metals.sbt
+mar 02, 2026 9:16:54 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 28
+2026.03.02 09:16:54 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\project\metals.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.03.02 09:16:55 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\project\metals.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.03.02 09:22:03 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\project\metals.sbt. Using presentation compiler with project's scala-library version: 2.12.21
