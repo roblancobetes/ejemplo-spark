@@ -7,7 +7,7 @@ import org.apache.spark.{SparkContext, SparkConf}
 object Main {
   def main(args: Array[String]): Unit = {
 
-    UsoRDD()
+    UsoRddCsv()
 
   }
 
@@ -34,7 +34,38 @@ object Main {
 
   }
 
+  def UsoRddCsv(): Unit ={
 
+    val spark = SparkSession.builder()
+      .appName("ejemplo-spark")
+      .master("local[*]")
+      .getOrCreate()
+
+    val sc = spark.sparkContext //Forma alternativa de crear un sparkContext
+
+    val rdd = sc.textFile("data/AAPL.csv")
+
+    val header = rdd.first()
+
+    val data = rdd.filter(line => line != header)
+
+    val datosSeparados = data.map{line => line.split(",")}
+
+    //Los datos son: Date, Open, High, Low, Close, Adj Close, Volume
+    val datosTipados = datosSeparados.map(fila => 
+      Array(fila(0),
+       fila(1).toDouble,
+       fila(2).toDouble,
+       fila(3).toDouble,
+       fila(4).toDouble,
+       fila(5).toDouble,
+       fila(6).toLong)
+      )
+
+    print(header)
+    datosTipados.take(20).foreach(lista => println(lista.mkString(", "))) //Mostrar los primeros 20 registros
+
+  }
 
   def usoDataFrame(): Unit = {
 

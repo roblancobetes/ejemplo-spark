@@ -423,3 +423,43 @@ WARNING: Unmatched cancel notification for request id 1251
 2026.03.03 09:17:49 INFO  time: compiled root in 0.65s
 2026.03.03 09:22:26 INFO  compiling root (1 scala source)
 2026.03.03 09:22:26 INFO  time: compiled root in 0.58s
+2026.03.03 09:35:40 INFO  compiling root (1 scala source)
+2026.03.03 09:35:40 INFO  time: compiled root in 0.63s
+mar 03, 2026 9:36:44 A. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2026.03.03 09:36:44 INFO  Created report: Optional[file:///C:/Users/RodrigoBlanco(AlfaFo/Desktop/ejemplo-spark/src/main/scala/example/Main.scala]
+2026.03.03 09:36:44 INFO  java.lang.AssertionError: assertion failed: file:///C:/Users/RodrigoBlanco(AlfaFo/Desktop/ejemplo-spark/src/main/scala/example/Main.scala: 748 >= 748 (full report at: "C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\.metals\.reports\metals-full\2026-03-03\r_compiler-error_(root)_09-36-44-643.md")
+2026.03.03 09:36:49 INFO  compiling root (1 scala source)
+2026.03.03 09:36:49 INFO  time: compiled root in 0.62s
+2026.03.03 09:36:55 INFO  compiling root (1 scala source)
+2026.03.03 09:36:55 INFO  time: compiled root in 0.55s
+2026.03.03 09:37:46 INFO  compiling root (1 scala source)
+2026.03.03 09:37:46 INFO  time: compiled root in 0.62s
+2026.03.03 09:37:55 INFO  compiling root (1 scala source)
+2026.03.03 09:37:55 INFO  time: compiled root in 0.15s
+2026.03.03 09:38:28 INFO  compiling root (1 scala source)
+2026.03.03 09:38:28 INFO  time: compiled root in 0.6s
+2026.03.03 09:38:38 INFO  compiling root (1 scala source)
+2026.03.03 09:38:38 INFO  time: compiled root in 0.56s
+2026.03.03 09:38:51 INFO  compiling root (1 scala source)
+2026.03.03 09:38:51 INFO  time: compiled root in 0.55s
+2026.03.03 09:39:30 INFO  compiling root (1 scala source)
+Exception in thread "pool-6-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:207)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026.03.03 09:39:30 INFO  time: compiled root in 0.62s
+2026.03.03 09:39:39 INFO  compiling root (1 scala source)
+2026.03.03 09:39:39 INFO  time: compiled root in 0.57s
+2026.03.03 09:39:59 INFO  compiling root (1 scala source)
+2026.03.03 09:39:59 INFO  time: compiled root in 0.62s
+2026.03.03 09:40:06 INFO  compiling root (1 scala source)
+2026.03.03 09:40:06 INFO  time: compiled root in 0.56s
+2026.03.03 09:40:08 INFO  compiling root (1 scala source)
+2026.03.03 09:40:08 INFO  time: compiled root in 0.67s
+2026.03.03 09:40:18 INFO  compiling root (1 scala source)
+2026.03.03 09:40:18 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.03 09:40:18 INFO  time: compiled root in 0.58s
