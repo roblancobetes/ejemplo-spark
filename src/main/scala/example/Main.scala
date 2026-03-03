@@ -1,13 +1,15 @@
 package example
 
 import org.apache.spark.sql.SparkSession
+import org.apache.spark.sql.functions.{col, concat, lit}
 import org.apache.spark.{SparkContext, SparkConf}
+import org.apache.spark.sql.types.StringType
 
 
 object Main {
   def main(args: Array[String]): Unit = {
 
-    UsoRddCsv()
+    usoDataFrame()
 
   }
 
@@ -94,11 +96,11 @@ object Main {
       .reduceByKey{ case ((vol1, c1), (vol2, c2)) => (vol1 + vol2, c1 + c2)} //En general: reduceByKey es más escalable que groupBy
       //Hace combinaciones locales en cada partición antes del shuffle
       .mapValues{ case (vol, c) => vol.toDouble/c }
-      .sortBy{case (año, volumen) => año.toInt}
+      .coalesce(1) //Para que los datos se introduzcan en una partición y no interfiera con el orden: IMPORTANTE: datos ya agregados
+      .sortBy(_._1)
 
     println("El volumen medio es:")
     volumenMedio2.foreach(println(_))
-
 
   }
 
@@ -111,9 +113,30 @@ object Main {
 
     val df = spark.read
         .option("header", value = true)
+        .option("inferSchema", value = true)
         .csv("data/AAPL.csv")
 
-      df.show() //Mostrar las 10 primeras líneas del df
+      df.show() //Mostrar las 20 primeras líneas del df
+
+      //Los dataframes no están tipados (tienen un tipado general)
+      //Una fila de un df es un objeto tipo Row: tipo genérico de una fila
+      //Lo más cercano al tipado es el Schema: Conjunto de características de las columnas
+      df.printSchema()
+
+      import spark.implicits._ //En este caso spark es la SparkSession. Implicits permite usar $
+
+      //Operaciones con columnas en DFs
+      df.select("Date","Open","Volume").show()
+      df.select(col("Date"),$"Open",df("Volume")).show() //Versión con objetos tipo columna
+
+      //Manejo de "objetos" tipo columna
+      val columna = $"Open" //¡Falta df! Se evalúa en modo lazy => cuando se ejecute tendrá que tomar partido
+
+      val nuevaColumna = columna + 2
+
+      val columnaString = concat(columna.cast(StringType), lit("Hola"))
+
+      df.select(columna, nuevaColumna.alias("Columna con suma"), columnaString.alias("Columna rara")).show(truncate = false)
 
   }
 }

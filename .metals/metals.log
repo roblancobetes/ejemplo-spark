@@ -575,3 +575,233 @@ WARNING: Unmatched cancel notification for request id 7116
 2026.03.03 10:35:03 INFO  time: compiled root in 0.18s
 2026.03.03 10:35:11 INFO  compiling root (1 scala source)
 2026.03.03 10:35:11 INFO  time: compiled root in 0.62s
+2026.03.03 10:58:23 INFO  compiling root (1 scala source)
+2026.03.03 10:58:25 INFO  time: compiled root in 1.03s
+2026.03.03 10:58:48 INFO  compiling root (1 scala source)
+2026.03.03 10:58:48 INFO  time: compiled root in 0.2s
+2026.03.03 10:59:11 INFO  compiling root (1 scala source)
+2026.03.03 10:59:11 INFO  time: compiled root in 0.8s
+2026.03.03 10:59:23 INFO  compiling root (1 scala source)
+2026.03.03 10:59:23 INFO  time: compiled root in 0.18s
+2026.03.03 10:59:25 INFO  compiling root (1 scala source)
+2026.03.03 10:59:25 INFO  time: compiled root in 0.18s
+2026.03.03 10:59:34 INFO  compiling root (1 scala source)
+2026.03.03 10:59:34 INFO  time: compiled root in 0.22s
+2026.03.03 10:59:36 INFO  compiling root (1 scala source)
+2026.03.03 10:59:36 INFO  time: compiled root in 0.72s
+2026.03.03 11:00:26 INFO  compiling root (1 scala source)
+2026.03.03 11:00:26 INFO  time: compiled root in 0.76s
+2026.03.03 11:22:47 INFO  compiling root (1 scala source)
+2026.03.03 11:22:47 INFO  time: compiled root in 0.69s
+2026.03.03 11:22:50 INFO  compiling root (1 scala source)
+2026.03.03 11:22:50 INFO  time: compiled root in 0.74s
+2026.03.03 11:28:05 INFO  compiling root (1 scala source)
+2026.03.03 11:28:05 INFO  time: compiled root in 0.21s
+2026.03.03 11:29:33 INFO  compiling root (1 scala source)
+2026.03.03 11:29:33 INFO  time: compiled root in 0.21s
+2026.03.03 11:29:36 INFO  Created report: Optional[file:///C:/Users/RodrigoBlanco(AlfaFo/Desktop/ejemplo-spark/src/main/scala/example/Main.scala]
+2026.03.03 11:29:36 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\.metals\.reports\metals-full\2026-03-03\r_empty-definition_(root)_11-29-36-026.md")
+2026.03.03 11:29:36 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\.metals\.reports\metals-full\2026-03-03\r_empty-definition_(root)_11-29-36-026.md")
+2026.03.03 11:29:37 INFO  Created report: Optional[file:///C:/Users/RodrigoBlanco(AlfaFo/Desktop/ejemplo-spark/src/main/scala/example/Main.scala]
+2026.03.03 11:29:37 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\.metals\.reports\metals-full\2026-03-03\r_empty-definition_(root)_11-29-37-242.md")
+2026.03.03 11:29:37 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\.metals\.reports\metals-full\2026-03-03\r_empty-definition_(root)_11-29-37-242.md")
+2026.03.03 11:29:37 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\.metals\.reports\metals-full\2026-03-03\r_empty-definition_(root)_11-29-37-242.md")
+2026.03.03 11:29:38 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\.metals\.reports\metals-full\2026-03-03\r_empty-definition_(root)_11-29-37-242.md")
+mar 03, 2026 11:29:38 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9707
+2026.03.03 11:29:38 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\.metals\.reports\metals-full\2026-03-03\r_empty-definition_(root)_11-29-37-242.md")
+mar 03, 2026 11:29:38 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9708
+2026.03.03 11:29:38 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\.metals\.reports\metals-full\2026-03-03\r_empty-definition_(root)_11-29-37-242.md")
+2026.03.03 11:29:38 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\.metals\.reports\metals-full\2026-03-03\r_empty-definition_(root)_11-29-37-242.md")
+2026.03.03 11:29:38 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\.metals\.reports\metals-full\2026-03-03\r_empty-definition_(root)_11-29-37-242.md")
+2026.03.03 11:29:39 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\.metals\.reports\metals-full\2026-03-03\r_empty-definition_(root)_11-29-37-242.md")
+2026.03.03 11:29:39 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\.metals\.reports\metals-full\2026-03-03\r_empty-definition_(root)_11-29-37-242.md")
+2026.03.03 11:29:40 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\.metals\.reports\metals-full\2026-03-03\r_empty-definition_(root)_11-29-37-242.md")
+2026.03.03 11:29:40 INFO  Created report: Optional[file:///C:/Users/RodrigoBlanco(AlfaFo/Desktop/ejemplo-spark/src/main/scala/example/Main.scala]
+2026.03.03 11:29:40 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\.metals\.reports\metals-full\2026-03-03\r_empty-definition_(root)_11-29-40-143.md")
+2026.03.03 11:29:40 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\.metals\.reports\metals-full\2026-03-03\r_empty-definition_(root)_11-29-37-242.md")
+2026.03.03 11:29:40 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\.metals\.reports\metals-full\2026-03-03\r_empty-definition_(root)_11-29-37-242.md")
+2026.03.03 11:29:40 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\.metals\.reports\metals-full\2026-03-03\r_empty-definition_(root)_11-29-40-143.md")
+2026.03.03 11:29:40 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\.metals\.reports\metals-full\2026-03-03\r_empty-definition_(root)_11-29-37-242.md")
+2026.03.03 11:29:41 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\.metals\.reports\metals-full\2026-03-03\r_empty-definition_(root)_11-29-37-242.md")
+2026.03.03 11:29:40 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\.metals\.reports\metals-full\2026-03-03\r_empty-definition_(root)_11-29-40-143.md")
+2026.03.03 11:29:42 INFO  compiling root (1 scala source)
+2026.03.03 11:29:42 INFO  time: compiled root in 0.18s
+2026.03.03 11:31:00 INFO  compiling root (1 scala source)
+2026.03.03 11:31:00 INFO  time: compiled root in 0.21s
+2026.03.03 11:31:15 INFO  compiling root (1 scala source)
+2026.03.03 11:31:15 INFO  time: compiled root in 0.18s
+2026.03.03 11:31:59 INFO  compiling root (1 scala source)
+2026.03.03 11:31:59 INFO  time: compiled root in 0.2s
+2026.03.03 11:35:08 INFO  compiling root (1 scala source)
+2026.03.03 11:35:08 INFO  time: compiled root in 0.75s
+2026.03.03 11:41:24 INFO  compiling root (1 scala source)
+2026.03.03 11:41:24 INFO  time: compiled root in 0.77s
+2026.03.03 11:42:01 INFO  compiling root (1 scala source)
+2026.03.03 11:42:01 INFO  time: compiled root in 0.16s
+2026.03.03 11:42:22 INFO  compiling root (1 scala source)
+2026.03.03 11:42:22 INFO  time: compiled root in 0.18s
+mar 03, 2026 11:43:48 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10872
+2026.03.03 11:44:03 INFO  compiling root (1 scala source)
+2026.03.03 11:44:03 INFO  time: compiled root in 0.21s
+2026.03.03 11:44:18 INFO  compiling root (1 scala source)
+2026.03.03 11:44:18 INFO  time: compiled root in 0.71s
+2026.03.03 11:44:33 INFO  compiling root (1 scala source)
+2026.03.03 11:44:33 INFO  time: compiled root in 0.67s
+2026.03.03 11:44:42 INFO  compiling root (1 scala source)
+2026.03.03 11:44:42 INFO  time: compiled root in 0.67s
+mar 03, 2026 12:02:29 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11567
+2026.03.03 12:02:40 INFO  compiling root (1 scala source)
+2026.03.03 12:02:40 INFO  time: compiled root in 0.76s
+2026.03.03 12:03:08 INFO  compiling root (1 scala source)
+2026.03.03 12:03:08 INFO  time: compiled root in 0.73s
+2026.03.03 12:03:16 INFO  compiling root (1 scala source)
+2026.03.03 12:03:16 INFO  time: compiled root in 0.68s
+2026.03.03 12:03:33 INFO  compiling root (1 scala source)
+2026.03.03 12:03:33 INFO  time: compiled root in 0.69s
+2026.03.03 12:03:43 INFO  compiling root (1 scala source)
+2026.03.03 12:03:43 INFO  time: compiled root in 0.68s
+2026.03.03 12:03:45 INFO  compiling root (1 scala source)
+2026.03.03 12:03:45 INFO  time: compiled root in 0.69s
+2026.03.03 12:03:55 INFO  compiling root (1 scala source)
+2026.03.03 12:03:55 INFO  time: compiled root in 0.69s
+2026.03.03 12:06:03 INFO  compiling root (1 scala source)
+2026.03.03 12:06:03 INFO  time: compiled root in 0.76s
+mar 03, 2026 12:07:30 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12153
+mar 03, 2026 12:07:43 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12274
+2026.03.03 12:08:13 INFO  compiling root (1 scala source)
+2026.03.03 12:08:13 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.03 12:08:13 INFO  time: compiled root in 0.75s
+2026.03.03 12:08:14 INFO  compiling root (1 scala source)
+2026.03.03 12:08:14 INFO  time: compiled root in 0.33s
+2026.03.03 12:08:26 INFO  compiling root (1 scala source)
+2026.03.03 12:08:26 INFO  time: compiled root in 0.13s
+2026.03.03 12:08:44 INFO  compiling root (1 scala source)
+2026.03.03 12:08:44 INFO  time: compiled root in 0.69s
+2026.03.03 12:09:29 INFO  compiling root (1 scala source)
+2026.03.03 12:09:29 INFO  time: compiled root in 0.74s
+2026.03.03 12:09:46 INFO  compiling root (1 scala source)
+2026.03.03 12:09:46 INFO  time: compiled root in 0.68s
+2026.03.03 12:10:09 INFO  compiling root (1 scala source)
+2026.03.03 12:10:09 INFO  time: compiled root in 0.69s
+2026.03.03 12:10:10 INFO  compiling root (1 scala source)
+2026.03.03 12:10:10 INFO  time: compiled root in 0.3s
+2026.03.03 12:10:29 INFO  compiling root (1 scala source)
+2026.03.03 12:10:29 INFO  time: compiled root in 0.68s
+2026.03.03 12:10:29 INFO  compiling root (1 scala source)
+2026.03.03 12:10:30 INFO  time: compiled root in 0.28s
+2026.03.03 12:10:40 INFO  compiling root (1 scala source)
+2026.03.03 12:10:40 INFO  time: compiled root in 0.69s
+2026.03.03 12:10:48 INFO  compiling root (1 scala source)
+2026.03.03 12:10:48 INFO  time: compiled root in 0.68s
+2026.03.03 12:10:55 INFO  compiling root (1 scala source)
+2026.03.03 12:10:55 INFO  time: compiled root in 0.69s
+2026.03.03 12:11:09 INFO  compiling root (1 scala source)
+2026.03.03 12:11:09 INFO  time: compiled root in 0.69s
+2026.03.03 12:11:26 INFO  compiling root (1 scala source)
+2026.03.03 12:11:26 INFO  time: compiled root in 0.72s
+2026.03.03 12:11:30 INFO  compiling root (1 scala source)
+2026.03.03 12:11:30 INFO  time: compiled root in 0.7s
+2026.03.03 12:11:32 INFO  compiling root (1 scala source)
+2026.03.03 12:11:32 INFO  time: compiled root in 0.77s
+2026.03.03 12:12:08 INFO  compiling root (1 scala source)
+2026.03.03 12:12:08 INFO  time: compiled root in 0.77s
+2026.03.03 12:12:19 INFO  compiling root (1 scala source)
+2026.03.03 12:12:19 INFO  time: compiled root in 0.14s
+2026.03.03 12:12:44 INFO  compiling root (1 scala source)
+2026.03.03 12:12:44 INFO  time: compiled root in 0.74s
+2026.03.03 12:12:58 INFO  compiling root (1 scala source)
+2026.03.03 12:12:58 INFO  time: compiled root in 0.72s
+2026.03.03 12:13:07 INFO  compiling root (1 scala source)
+2026.03.03 12:13:07 INFO  time: compiled root in 0.7s
+2026.03.03 12:14:43 INFO  compiling root (1 scala source)
+2026.03.03 12:14:43 INFO  time: compiled root in 0.8s
+2026.03.03 12:14:51 INFO  compiling root (1 scala source)
+2026.03.03 12:14:51 INFO  time: compiled root in 0.68s
+2026.03.03 12:15:31 INFO  compiling root (1 scala source)
+2026.03.03 12:15:31 INFO  time: compiled root in 0.76s
+2026.03.03 12:16:41 INFO  compiling root (1 scala source)
+2026.03.03 12:16:41 INFO  time: compiled root in 0.77s
+mar 03, 2026 12:17:35 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14360
+2026.03.03 12:17:36 INFO  compiling root (1 scala source)
+2026.03.03 12:17:36 INFO  time: compiled root in 0.78s
+2026.03.03 12:18:27 INFO  compiling root (1 scala source)
+2026.03.03 12:18:27 INFO  time: compiled root in 0.77s
+2026.03.03 12:18:53 INFO  compiling root (1 scala source)
+2026.03.03 12:18:53 INFO  time: compiled root in 0.2s
+2026.03.03 12:19:06 INFO  compiling root (1 scala source)
+2026.03.03 12:19:06 INFO  time: compiled root in 0.8s
+2026.03.03 12:25:38 INFO  compiling root (1 scala source)
+2026.03.03 12:25:38 INFO  time: compiled root in 0.81s
+2026.03.03 12:26:02 INFO  compiling root (1 scala source)
+2026.03.03 12:26:02 INFO  time: compiled root in 0.73s
+2026.03.03 12:26:17 INFO  compiling root (1 scala source)
+2026.03.03 12:26:17 INFO  time: compiled root in 0.19s
+2026.03.03 12:27:32 INFO  compiling root (1 scala source)
+2026.03.03 12:27:32 INFO  time: compiled root in 0.18s
+2026.03.03 12:27:40 INFO  compiling root (1 scala source)
+2026.03.03 12:27:40 INFO  time: compiled root in 0.14s
+2026.03.03 12:27:54 INFO  compiling root (1 scala source)
+2026.03.03 12:27:54 INFO  time: compiled root in 0.14s
+2026.03.03 12:28:35 INFO  compiling root (1 scala source)
+2026.03.03 12:28:35 INFO  time: compiled root in 0.17s
+2026.03.03 12:28:48 INFO  compiling root (1 scala source)
+2026.03.03 12:28:48 INFO  time: compiled root in 0.15s
+2026.03.03 12:28:52 INFO  compiling root (1 scala source)
+2026.03.03 12:28:52 INFO  time: compiled root in 0.14s
+2026.03.03 12:29:09 INFO  compiling root (1 scala source)
+2026.03.03 12:29:09 INFO  time: compiled root in 0.15s
+2026.03.03 12:29:14 INFO  compiling root (1 scala source)
+2026.03.03 12:29:14 INFO  time: compiled root in 0.14s
+2026.03.03 12:29:22 INFO  compiling root (1 scala source)
+2026.03.03 12:29:22 INFO  time: compiled root in 0.86s
+2026.03.03 12:30:41 INFO  compiling root (1 scala source)
+2026.03.03 12:30:41 INFO  time: compiled root in 0.82s
+2026.03.03 12:30:46 INFO  compiling root (1 scala source)
+2026.03.03 12:30:46 INFO  time: compiled root in 0.75s
+2026.03.03 12:31:26 INFO  compiling root (1 scala source)
+2026.03.03 12:31:26 INFO  time: compiled root in 0.83s
+2026.03.03 12:31:28 INFO  compiling root (1 scala source)
+2026.03.03 12:31:28 INFO  time: compiled root in 0.17s
+2026.03.03 12:32:39 INFO  compiling root (1 scala source)
+2026.03.03 12:32:39 INFO  time: compiled root in 0.24s
+2026.03.03 12:32:52 INFO  compiling root (1 scala source)
+2026.03.03 12:32:52 INFO  time: compiled root in 0.14s
+2026.03.03 12:32:56 INFO  compiling root (1 scala source)
+2026.03.03 12:32:56 INFO  time: compiled root in 0.8s
+2026.03.03 12:33:00 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.03 12:33:00 INFO  compiling root (1 scala source)
+2026.03.03 12:33:00 INFO  time: compiled root in 0.83s
+2026.03.03 12:33:03 INFO  compiling root (1 scala source)
+2026.03.03 12:33:03 INFO  time: compiled root in 0.76s
+2026.03.03 12:33:13 INFO  compiling root (1 scala source)
+2026.03.03 12:33:13 INFO  time: compiled root in 0.77s
+2026.03.03 12:33:45 INFO  compiling root (1 scala source)
+2026.03.03 12:33:45 INFO  time: compiled root in 0.76s
+2026.03.03 12:33:59 INFO  compiling root (1 scala source)
+2026.03.03 12:33:59 INFO  time: compiled root in 0.77s
+mar 03, 2026 12:34:42 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16848
+2026.03.03 12:34:44 INFO  compiling root (1 scala source)
+2026.03.03 12:34:44 INFO  time: compiled root in 0.23s
+2026.03.03 12:34:44 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.03 12:34:46 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.03 12:34:47 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.03 12:34:47 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.03 12:34:49 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.03 12:34:50 INFO  compiling root (1 scala source)
+2026.03.03 12:34:50 INFO  time: compiled root in 0.81s
+mar 03, 2026 12:36:31 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17000
+2026.03.03 12:36:33 INFO  compiling root (1 scala source)
+2026.03.03 12:36:33 INFO  time: compiled root in 0.26s
+2026.03.03 12:36:53 INFO  compiling root (1 scala source)
+2026.03.03 12:36:53 INFO  time: compiled root in 0.79s
+2026.03.03 12:37:12 INFO  compiling root (1 scala source)
+2026.03.03 12:37:12 INFO  time: compiled root in 0.95s
