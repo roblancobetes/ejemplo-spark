@@ -52,18 +52,53 @@ object Main {
     val datosSeparados = data.map{line => line.split(",")}
 
     //Los datos son: Date, Open, High, Low, Close, Adj Close, Volume
-    val datosTipados = datosSeparados.map(fila => 
-      Array(fila(0),
-       fila(1).toDouble,
-       fila(2).toDouble,
-       fila(3).toDouble,
-       fila(4).toDouble,
-       fila(5).toDouble,
-       fila(6).toLong)
+    val datosTipados = datosSeparados.map(cols => 
+      //Llama al constructor de Stock
+      Stock(cols(0), //Date
+       cols(1).toDouble, //Open
+       cols(2).toDouble, // High
+       cols(3).toDouble, //Low
+       cols(4).toDouble, //Close
+       cols(5).toDouble, //adjClose
+       cols(6).toLong) //Volume
       )
 
     print(header)
-    datosTipados.take(20).foreach(lista => println(lista.mkString(", "))) //Mostrar los primeros 20 registros
+    datosTipados.take(20).foreach(println(_)) //Mostrar los primeros 20 registros
+
+    //Buscar la sesión con mayor volumen
+    val diaMovido = datosTipados.reduce((a,b) => if (a.volume > b.volume) a else b)
+    println("\n" + "Este fue el dia con mayor volumen:")
+    println(diaMovido + "\n")
+
+    //Obtener el día en el que más subió el stock
+    val mayorSubidaDiaria = datosTipados.reduce((a,b) => 
+      if (a.close/a.open > b.close/b.open) a else b)
+    println("\n" + "Aqui fue la mayor subida diaria")
+    println(mayorSubidaDiaria + "\n")
+
+    //Total de días con volumen mayor que 100M
+    val diasVolumenAlto = datosTipados.filter(_.volume > 100000000).count()
+
+    println("\n" + s"El total de dias con alto volumen es $diasVolumenAlto." + "\n")
+
+    //Agrupaciones: volumen medio por año
+    val volumenMedio = datosTipados 
+      .map(s => (s.date.substring(0,4), s.volume))
+      .groupByKey()
+      .mapValues(vols => vols.sum/vols.size)
+
+    //Lo mismo más eficiente
+    val volumenMedio2 = datosTipados 
+      .map(s => (s.date.substring(0,4), (s.volume, 1L))) //tomo pares de la forma (volumen, 1 long)
+      .reduceByKey{ case ((vol1, c1), (vol2, c2)) => (vol1 + vol2, c1 + c2)} //En general: reduceByKey es más escalable que groupBy
+      //Hace combinaciones locales en cada partición antes del shuffle
+      .mapValues{ case (vol, c) => vol.toDouble/c }
+      .sortBy{case (año, volumen) => año.toInt}
+
+    println("El volumen medio es:")
+    volumenMedio2.foreach(println(_))
+
 
   }
 
@@ -82,4 +117,15 @@ object Main {
 
   }
 }
+
+
+case class Stock(
+  date: String,
+  open: Double,
+  close: Double,
+  high: Double,
+  low: Double,
+  adjClose: Double,
+  volume: Long
+)
 
