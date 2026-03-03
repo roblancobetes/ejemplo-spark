@@ -237,3 +237,189 @@ WARNING: Unmatched cancel notification for request id 28
 2026.03.02 09:46:28 INFO  Connected to Build server: Bloop v2.0.18
 2026.03.02 09:46:35 INFO  time: indexed workspace in 6.28s
 2026.03.02 09:46:35 INFO  skipping build import with status 'Installed'
+2026.03.02 09:47:55 INFO  running 'C:\Program Files\Java\jdk-17\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\RODRIG~1\AppData\Local\Temp\metals13117481897294084342\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2026.03.02 09:47:57 INFO  [info] welcome to sbt 1.12.4 (Oracle Corporation Java 17.0.12)
+2026.03.02 09:47:57 INFO  [info] loading settings for project ejemplo-spark-build-build from metals.sbt...
+2026.03.02 09:47:58 INFO  [info] loading project definition from C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\project\project
+2026.03.02 09:47:58 INFO  [info] loading settings for project ejemplo-spark-build from metals.sbt...
+2026.03.02 09:47:58 INFO  [info] loading project definition from C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\project
+2026.03.02 09:48:01 INFO  [success] Generated .bloop\ejemplo-spark-build.json
+2026.03.02 09:48:01 INFO  [success] Total time: 2 s, completed 2 mar 2026 9:48:02
+2026.03.02 09:48:04 INFO  [info] loading settings for project root from build.sbt...
+2026.03.02 09:48:04 INFO  [info] set current project to ejemploSpark (in build file:/C:/Users/RodrigoBlanco(AlfaFo/Desktop/ejemplo-spark/)
+2026.03.02 09:48:04 INFO  [warn] there's a key that's not used by any other settings/tasks:
+2026.03.02 09:48:04 INFO  [warn]  
+2026.03.02 09:48:04 INFO  [warn] * ThisBuild / classLoaderLayeringStrategy
+2026.03.02 09:48:04 INFO  [warn]   +- C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\build.sbt:19
+2026.03.02 09:48:04 INFO  [warn]  
+2026.03.02 09:48:04 INFO  [warn] note: a setting might still be used by a command; to exclude a key from this `lintUnused` check
+2026.03.02 09:48:04 INFO  [warn] either append it to `Global / excludeLintKeys` or call .withRank(KeyRanks.Invisible) on the key
+2026.03.02 09:48:05 INFO  [success] Generated .bloop\root-test.json
+2026.03.02 09:48:05 INFO  [success] Generated .bloop\root.json
+2026.03.02 09:48:05 INFO  [success] Total time: 1 s, completed 2 mar 2026 9:48:05
+2026.03.02 09:48:05 INFO  time: ran 'sbt bloopInstall' in 9.91s
+2026.03.02 09:48:05 INFO  Disconnecting from Bloop session...
+2026.03.02 09:48:05 INFO  Shut down connection with build server.
+2026.03.02 09:48:05 INFO  Shut down connection with build server.
+2026.03.02 09:48:05 INFO  Attempting to connect to the build server...
+2026.03.02 09:48:05 INFO  Found a Bloop server running
+2026.03.02 09:48:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\.metals\bsp.trace.json or C:\Users\RodrigoBlanco(AlfaFo\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.03.02 09:48:05 INFO  Attempting to connect to the build server...
+2026.03.02 09:48:05 INFO  Found a Bloop server running
+2026.03.02 09:48:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\project\.metals\bsp.trace.json or C:\Users\RodrigoBlanco(AlfaFo\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.03.02 09:48:05 INFO  time: Connected to build server in 0.22s
+2026.03.02 09:48:05 INFO  Connected to Build server: Bloop v2.0.18
+2026.03.02 09:48:09 INFO  time: indexed workspace in 3.84s
+2026.03.02 09:48:09 INFO  skipping build import with status 'Installed'
+2026.03.02 09:51:31 INFO  compiling root (1 scala source)
+2026.03.02 09:51:32 INFO  time: compiled root in 1.3s
+mar 02, 2026 9:53:12 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 825
+2026.03.02 09:53:21 INFO  compiling root (1 scala source)
+2026.03.02 09:53:21 INFO  time: compiled root in 0.26s
+2026.03.02 09:53:31 INFO  compiling root (1 scala source)
+Exception in thread "pool-14-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:207)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026.03.02 09:53:31 INFO  time: compiled root in 0.93s
+2026.03.02 09:59:34 INFO  compiling root (1 scala source)
+2026.03.02 09:59:34 INFO  time: compiled root in 0.67s
+mar 02, 2026 9:59:39 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1122
+2026.03.02 10:00:07 INFO  compiling root (1 scala source)
+2026.03.02 10:00:07 INFO  time: compiled root in 0.56s
+2026.03.02 10:17:46 INFO  compiling root (1 scala source)
+2026.03.02 10:17:46 INFO  time: compiled root in 0.64s
+2026.03.02 10:18:11 INFO  compiling root (1 scala source)
+2026.03.02 10:18:11 INFO  time: compiled root in 0.14s
+2026.03.02 10:18:22 INFO  compiling root (1 scala source)
+2026.03.02 10:18:22 INFO  time: compiled root in 0.57s
+2026.03.02 10:21:21 INFO  compiling root (1 scala source)
+2026.03.02 10:21:21 INFO  time: compiled root in 0.59s
+2026.03.02 10:21:55 INFO  compiling root (1 scala source)
+2026.03.02 10:21:55 INFO  time: compiled root in 0.58s
+2026.03.02 10:22:09 INFO  compiling root (1 scala source)
+2026.03.02 10:22:09 INFO  time: compiled root in 0.53s
+2026.03.02 10:25:53 INFO  compiling root (1 scala source)
+2026.03.02 10:25:53 INFO  time: compiled root in 0.58s
+2026.03.02 13:52:33 INFO  Shutting down server
+2026.03.02 13:52:33 INFO  Memory monitor stopped
+2026.03.02 13:52:33 INFO  shutting down Metals
+2026.03.02 13:52:33 INFO  Shut down connection with build server.
+2026.03.02 13:52:33 INFO  Shut down connection with build server.
+2026.03.02 13:52:33 INFO  Exiting server
+2026.03.03 08:54:30 INFO  Started: Metals version 1.6.5 in folders 'C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark' for client Visual Studio Code 1.109.5.
+2026.03.03 08:54:30 INFO  Memory monitor started
+2026.03.03 08:54:30 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.03.03 08:54:30 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.03 08:54:32 INFO  no build target found for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.03 08:54:32 INFO  Attempting to connect to the build server...
+2026.03.03 08:54:32 INFO  No running Bloop server found, starting one.
+2026.03.03 08:54:33 INFO  Starting compilation server
+2026.03.03 08:54:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\.metals\bsp.trace.json or C:\Users\RodrigoBlanco(AlfaFo\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.03.03 08:54:36 INFO  Attempting to connect to the build server...
+2026.03.03 08:54:36 INFO  Found a Bloop server running
+2026.03.03 08:54:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\project\.metals\bsp.trace.json or C:\Users\RodrigoBlanco(AlfaFo\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.03.03 08:54:35 INFO  time: Connected to build server in 3.46s
+2026.03.03 08:54:36 INFO  Connected to Build server: Bloop v2.0.18
+2026.03.03 08:54:35 INFO  time: Imported build in 0.15s
+2026.03.03 08:54:40 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.03.03 08:54:45 INFO  time: indexed workspace in 8.82s
+2026.03.03 08:58:30 INFO  compiling root (1 scala source)
+2026.03.03 08:58:32 INFO  time: compiled root in 2.46s
+2026.03.03 08:58:32 INFO  compiling root (1 scala source)
+2026.03.03 08:58:32 INFO  time: compiled root in 0.46s
+Exception in thread "pool-6-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:207)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026.03.03 08:58:38 INFO  compiling root (1 scala source)
+2026.03.03 08:58:38 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.03 08:58:38 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.03 08:58:38 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.03 08:58:38 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.03 08:58:38 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.03 08:58:38 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.03 08:58:38 INFO  time: compiled root in 0.9s
+2026.03.03 08:58:41 INFO  compiling root (1 scala source)
+2026.03.03 08:58:41 INFO  time: compiled root in 0.84s
+2026.03.03 08:58:44 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.03 08:58:45 INFO  compiling root (1 scala source)
+2026.03.03 08:58:45 INFO  time: compiled root in 0.64s
+2026.03.03 08:58:47 INFO  compiling root (1 scala source)
+2026.03.03 08:58:47 INFO  time: compiled root in 0.69s
+2026.03.03 08:58:58 INFO  compiling root (1 scala source)
+2026.03.03 08:58:58 INFO  time: compiled root in 0.57s
+2026.03.03 08:59:00 INFO  compiling root (1 scala source)
+2026.03.03 08:59:00 INFO  time: compiled root in 0.57s
+2026.03.03 09:00:12 INFO  compiling root (1 scala source)
+2026.03.03 09:00:12 INFO  time: compiled root in 0.59s
+2026.03.03 09:02:20 INFO  compiling root (1 scala source)
+2026.03.03 09:02:20 INFO  time: compiled root in 0.21s
+2026.03.03 09:03:28 INFO  compiling root (1 scala source)
+2026.03.03 09:03:28 INFO  time: compiled root in 0.16s
+2026.03.03 09:03:50 INFO  compiling root (1 scala source)
+2026.03.03 09:03:50 INFO  time: compiled root in 0.13s
+mar 03, 2026 9:04:21 A. M. scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 314, count -1, length 692
+2026.03.03 09:04:35 INFO  compiling root (1 scala source)
+2026.03.03 09:04:35 INFO  time: compiled root in 0.65s
+mar 03, 2026 9:05:09 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1095
+2026.03.03 09:05:21 INFO  compiling root (1 scala source)
+2026.03.03 09:05:21 INFO  time: compiled root in 0.83s
+2026.03.03 09:05:27 INFO  compiling root (1 scala source)
+2026.03.03 09:05:27 INFO  time: compiled root in 0.59s
+mar 03, 2026 9:05:34 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1251
+2026.03.03 09:05:36 INFO  compiling root (1 scala source)
+2026.03.03 09:05:36 INFO  time: compiled root in 0.58s
+2026.03.03 09:05:44 INFO  compiling root (1 scala source)
+2026.03.03 09:05:44 INFO  time: compiled root in 0.57s
+2026.03.03 09:06:57 INFO  compiling root (1 scala source)
+2026.03.03 09:06:57 INFO  time: compiled root in 0.65s
+2026.03.03 09:07:36 INFO  compiling root (1 scala source)
+2026.03.03 09:07:36 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.03 09:07:36 INFO  time: compiled root in 0.25s
+2026.03.03 09:07:37 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.03 09:07:40 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.03 09:07:41 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.03 09:07:42 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.03 09:07:50 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.03 09:07:50 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.03 09:07:50 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.03 09:07:52 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.03 09:07:52 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.03 09:07:52 INFO  compiling root (1 scala source)
+2026.03.03 09:07:52 INFO  time: compiled root in 0.68s
+2026.03.03 09:08:02 INFO  compiling root (1 scala source)
+2026.03.03 09:08:02 INFO  time: compiled root in 0.67s
+2026.03.03 09:10:14 INFO  compiling root (1 scala source)
+2026.03.03 09:10:14 INFO  time: compiled root in 0.66s
+2026.03.03 09:10:20 INFO  compiling root (1 scala source)
+2026.03.03 09:10:20 INFO  time: compiled root in 0.58s
+2026.03.03 09:13:56 INFO  compiling root (1 scala source)
+2026.03.03 09:13:56 INFO  time: compiled root in 0.66s
+2026.03.03 09:13:57 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.03 09:13:56 INFO  compiling root (1 scala source)
+2026.03.03 09:13:57 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.03 09:13:57 INFO  time: compiled root in 0.29s
+2026.03.03 09:14:02 INFO  compiling root (1 scala source)
+2026.03.03 09:14:02 INFO  time: compiled root in 0.57s
+2026.03.03 09:14:08 INFO  compiling root (1 scala source)
+2026.03.03 09:14:08 INFO  time: compiled root in 0.57s
+2026.03.03 09:14:34 INFO  compiling root (1 scala source)
+2026.03.03 09:14:34 INFO  time: compiled root in 0.56s
+2026.03.03 09:15:42 INFO  compiling root (1 scala source)
+2026.03.03 09:15:42 INFO  time: compiled root in 0.58s
+2026.03.03 09:17:49 INFO  compiling root (1 scala source)
+2026.03.03 09:17:49 INFO  time: compiled root in 0.65s
+2026.03.03 09:22:26 INFO  compiling root (1 scala source)
+2026.03.03 09:22:26 INFO  time: compiled root in 0.58s
