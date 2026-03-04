@@ -1,17 +1,26 @@
+error id: file:///C:/Users/RodrigoBlanco(AlfaFo/Desktop/ejemplo-spark/src/main/scala/example/Main.scala:org/apache/spark/sql/Dataset#withColumns().
+file:///C:/Users/RodrigoBlanco(AlfaFo/Desktop/ejemplo-spark/src/main/scala/example/Main.scala
+empty definition using pc, found symbol in pc: 
+found definition using semanticdb; symbol org/apache/spark/sql/Dataset#withColumns().
+empty definition using fallback
+non-local guesses:
+
+offset: 5740
+uri: file:///C:/Users/RodrigoBlanco(AlfaFo/Desktop/ejemplo-spark/src/main/scala/example/Main.scala
+text:
+```scala
 package example
 
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions._
 import org.apache.spark.{SparkContext, SparkConf}
 import org.apache.spark.sql.types._
-import org.apache.spark.sql.expressions.Window
-import org.apache.spark.sql.Dataset
 
 
 object Main {
   def main(args: Array[String]): Unit = {
 
-    ejercicioDataFrame()
+    usoDataFrame()
 
   }
 
@@ -173,48 +182,18 @@ object Main {
       .getOrCreate()
 
     val df = spark.read
-        .option("header", true)
-        .option("inferSchema", true)
+        .option("header", value = true)
+        .option("inferSchema", value = true)
         .csv("data/AAPL.csv")
 
     import spark.implicits._
+    val rango = 
+    val nuevoDF = df.withC@@olumns{
+      Map("Rango" -> ($"High" - $"Low"),
+      "Tendencia" -> when($"Open" < $"Close", "Alcista").otherwise("Bajista"),
+      )
 
-    //Crear la ventana: indicación de cómo ordenar la BBDD
-    val ventana = Window.orderBy($"Date")
-
-    //Función lag para obtener el cierre del día anterior con la ventana de referencia
-    val cierreAnterior = lag($"Adj Close",1,1).over(ventana)
-
-    //Columnas pedidas en el ejercicio: rango, tendencia alcista o bajista, rendimiento y casteo del volumen
-    val rango = $"High" - $"Low"
-    val tendencia = when(cierreAnterior < $"Adj Close", "Alcista").otherwise("Bajista")
-    val rendimiento  = ($"Adj Close" - cierreAnterior)/cierreAnterior
-    val volumenLong = $"Volume".cast(LongType)
-
-
-    //Volumen medio mensual
-    val mes = substring($"Date", 6, 2)
-
-    val volumenMensual = df
-        .groupBy(mes.alias("Mes"))
-        .agg(avg(volumenLong).alias("Volumen medio"))
-        .orderBy(mes)
-
-    volumenMensual.show()
-
-    //Indicación del total de días alcistas y bajistas con volumen y rendimiento medio
-    val tendencias = df
-    .withColumns(Map("Rendimiento"-> rendimiento,
-        "Tendencia"-> tendencia)) //Se agregan al df las variables que necesitan una ventana
-      .groupBy($"Tendencia")
-      .agg( count("*").alias("Total de dias"),
-            avg(volumenLong).alias("Volumen medio"), 
-            avg($"Rendimiento").alias("Rendimiento medio"))
-
-    tendencias.show()
-
-
-    
+    }
 
 
   }
@@ -231,3 +210,10 @@ case class Stock(
   volume: Long
 )
 
+
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: 
