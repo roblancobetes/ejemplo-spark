@@ -1158,3 +1158,437 @@ WARNING: Unmatched cancel notification for request id 4110
 2026.03.04 10:03:14 INFO  time: compiled root in 0.93s
 2026.03.04 10:08:22 INFO  compiling root (1 scala source)
 2026.03.04 10:08:22 INFO  time: compiled root in 0.97s
+mar 04, 2026 10:34:53 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5647
+2026.03.04 10:35:02 INFO  compiling root (1 scala source)
+2026.03.04 10:35:02 INFO  time: compiled root in 0.96s
+2026.03.04 10:35:05 INFO  compiling root (1 scala source)
+2026.03.04 10:35:05 INFO  time: compiled root in 0.9s
+2026.03.04 10:35:18 INFO  compiling root (1 scala source)
+2026.03.04 10:35:18 INFO  time: compiled root in 0.87s
+2026.03.04 10:35:38 INFO  compiling root (1 scala source)
+2026.03.04 10:35:38 INFO  time: compiled root in 0.23s
+2026.03.04 10:35:38 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:35:39 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:35:40 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:35:40 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:35:42 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:35:42 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:35:45 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:35:45 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:35:45 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:35:46 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:35:46 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:35:47 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:35:48 INFO  compiling root (1 scala source)
+2026.03.04 10:35:48 INFO  time: compiled root in 0.2s
+2026.03.04 10:35:48 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:35:53 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:35:57 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:00 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:01 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:01 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:02 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:02 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:07 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:07 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:09 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:09 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:10 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:11 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:13 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:14 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:14 INFO  compiling root (1 scala source)
+2026.03.04 10:36:14 INFO  time: compiled root in 0.19s
+2026.03.04 10:36:14 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:17 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:19 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:20 INFO  compiling root (1 scala source)
+2026.03.04 10:36:20 INFO  time: compiled root in 0.19s
+2026.03.04 10:36:20 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:29 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:31 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:31 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:31 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:31 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:31 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:31 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:31 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:31 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:31 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:31 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:31 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:33 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:37 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:39 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:40 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:41 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:42 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:43 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:44 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:45 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:46 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:48 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 10:36:48 INFO  compiling root (1 scala source)
+2026.03.04 10:36:48 INFO  time: compiled root in 0.97s
+2026.03.04 10:37:15 INFO  compiling root (1 scala source)
+2026.03.04 10:37:15 INFO  time: compiled root in 0.88s
+2026.03.04 10:37:29 INFO  compiling root (1 scala source)
+2026.03.04 10:37:29 INFO  time: compiled root in 0.2s
+2026.03.04 10:37:33 INFO  compiling root (1 scala source)
+2026.03.04 10:37:33 INFO  time: compiled root in 0.15s
+mar 04, 2026 10:37:45 A. M. scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 5774, count -1, length 5955
+mar 04, 2026 10:38:13 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7075
+2026.03.04 10:38:15 INFO  compiling root (1 scala source)
+2026.03.04 10:38:15 INFO  time: compiled root in 0.17s
+2026.03.04 10:38:26 INFO  compiling root (1 scala source)
+2026.03.04 10:38:26 INFO  time: compiled root in 0.15s
+2026.03.04 10:39:41 INFO  compiling root (1 scala source)
+2026.03.04 10:39:41 INFO  time: compiled root in 0.24s
+2026.03.04 10:40:13 INFO  compiling root (1 scala source)
+2026.03.04 10:40:13 INFO  time: compiled root in 0.23s
+2026.03.04 10:40:23 INFO  compiling root (1 scala source)
+2026.03.04 10:40:23 INFO  time: compiled root in 0.92s
+2026.03.04 10:58:13 INFO  compiling root (1 scala source)
+2026.03.04 10:58:13 INFO  time: compiled root in 0.94s
+2026.03.04 10:58:29 INFO  Created report: Optional[file:///C:/Users/RodrigoBlanco(AlfaFo/Desktop/ejemplo-spark/src/main/scala/example/Main.scala]
+2026.03.04 10:58:29 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\.metals\.reports\metals-full\2026-03-04\r_empty-definition_(root)_10-58-29-449.md")
+mar 04, 2026 10:58:32 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7873
+2026.03.04 10:58:40 INFO  Created report: Optional[file:///C:/Users/RodrigoBlanco(AlfaFo/Desktop/ejemplo-spark/src/main/scala/example/Main.scala]
+2026.03.04 10:58:40 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\.metals\.reports\metals-full\2026-03-04\r_empty-definition_(root)_10-58-40-382.md")
+2026.03.04 10:58:41 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\.metals\.reports\metals-full\2026-03-04\r_empty-definition_(root)_10-58-29-449.md")
+2026.03.04 10:58:44 INFO  compiling root (1 scala source)
+2026.03.04 10:58:44 INFO  time: compiled root in 0.16s
+2026.03.04 10:58:47 INFO  compiling root (1 scala source)
+2026.03.04 10:58:47 INFO  time: compiled root in 0.92s
+mar 04, 2026 11:05:08 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8168
+2026.03.04 11:05:09 INFO  compiling root (1 scala source)
+2026.03.04 11:05:09 INFO  time: compiled root in 0.23s
+2026.03.04 11:05:12 INFO  compiling root (1 scala source)
+2026.03.04 11:05:12 INFO  time: compiled root in 0.24s
+2026.03.04 11:05:18 INFO  compiling root (1 scala source)
+2026.03.04 11:05:18 INFO  time: compiled root in 0.2s
+2026.03.04 11:05:22 INFO  compiling root (1 scala source)
+2026.03.04 11:05:22 INFO  time: compiled root in 0.89s
+2026.03.04 11:15:38 INFO  compiling root (1 scala source)
+2026.03.04 11:15:38 INFO  time: compiled root in 0.23s
+2026.03.04 11:15:39 INFO  compiling root (1 scala source)
+2026.03.04 11:15:39 INFO  time: compiled root in 0.17s
+2026.03.04 11:16:02 INFO  compiling root (1 scala source)
+2026.03.04 11:16:02 INFO  time: compiled root in 0.88s
+2026.03.04 11:19:35 INFO  Created report: Optional[file:///C:/Users/RodrigoBlanco(AlfaFo/Desktop/ejemplo-spark/src/main/scala/example/Main.scala]
+2026.03.04 11:19:35 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\.metals\.reports\metals-full\2026-03-04\r_empty-definition_(root)_11-19-35-747.md")
+2026.03.04 11:19:36 INFO  compiling root (1 scala source)
+2026.03.04 11:19:36 INFO  time: compiled root in 0.93s
+2026.03.04 11:20:03 INFO  compiling root (1 scala source)
+2026.03.04 11:20:03 INFO  time: compiled root in 0.89s
+2026.03.04 11:20:11 INFO  compiling root (1 scala source)
+2026.03.04 11:20:11 INFO  time: compiled root in 0.85s
+2026.03.04 11:20:28 INFO  compiling root (1 scala source)
+2026.03.04 11:20:28 INFO  time: compiled root in 0.86s
+2026.03.04 11:20:31 INFO  compiling root (1 scala source)
+2026.03.04 11:20:31 INFO  time: compiled root in 0.84s
+2026.03.04 11:20:48 INFO  compiling root (1 scala source)
+2026.03.04 11:20:48 INFO  time: compiled root in 0.19s
+2026.03.04 11:20:54 INFO  compiling root (1 scala source)
+2026.03.04 11:20:54 INFO  time: compiled root in 0.86s
+2026.03.04 11:21:07 INFO  compiling root (1 scala source)
+2026.03.04 11:21:07 INFO  time: compiled root in 0.85s
+2026.03.04 11:22:48 INFO  compiling root (1 scala source)
+2026.03.04 11:22:48 INFO  time: compiled root in 0.95s
+2026.03.04 11:24:01 INFO  compiling root (1 scala source)
+2026.03.04 11:24:01 INFO  time: compiled root in 0.24s
+2026.03.04 11:24:19 INFO  compiling root (1 scala source)
+2026.03.04 11:24:19 INFO  time: compiled root in 0.9s
+2026.03.04 11:25:02 INFO  compiling root (1 scala source)
+2026.03.04 11:25:02 INFO  time: compiled root in 0.93s
+2026.03.04 11:25:47 INFO  compiling root (1 scala source)
+2026.03.04 11:25:47 INFO  time: compiled root in 0.93s
+2026.03.04 11:25:55 INFO  compiling root (1 scala source)
+2026.03.04 11:25:55 INFO  time: compiled root in 0.89s
+2026.03.04 11:28:11 INFO  compiling root (1 scala source)
+2026.03.04 11:28:11 INFO  time: compiled root in 0.23s
+2026.03.04 11:28:12 INFO  compiling root (1 scala source)
+2026.03.04 11:28:12 INFO  time: compiled root in 0.85s
+2026.03.04 11:30:38 INFO  compiling root (1 scala source)
+2026.03.04 11:30:38 INFO  time: compiled root in 0.94s
+2026.03.04 11:33:00 INFO  compiling root (1 scala source)
+2026.03.04 11:33:00 INFO  time: compiled root in 0.24s
+2026.03.04 11:34:00 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\.metals\.reports\metals-full\2026-03-04\r_empty-definition_(root)_11-19-35-747.md")
+Exception in thread "pool-6-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:207)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026.03.04 11:34:03 INFO  compiling root (1 scala source)
+2026.03.04 11:34:03 INFO  time: compiled root in 0.24s
+2026.03.04 11:34:41 INFO  compiling root (1 scala source)
+2026.03.04 11:34:41 INFO  time: compiled root in 0.24s
+2026.03.04 11:40:31 INFO  compiling root (1 scala source)
+2026.03.04 11:40:31 INFO  time: compiled root in 0.94s
+2026.03.04 11:40:53 INFO  compiling root (1 scala source)
+2026.03.04 11:40:53 INFO  time: compiled root in 0.2s
+2026.03.04 11:41:15 INFO  compiling root (1 scala source)
+2026.03.04 11:41:15 INFO  time: compiled root in 0.22s
+something's wrong: no file:///C:/Users/RodrigoBlanco(AlfaFo/Desktop/ejemplo-spark/src/main/scala/example/Main.scala in org.apache.spark.sql.Dataset[<error>]RangePosition(file:///C:/Users/RodrigoBlanco(AlfaFo/Desktop/ejemplo-spark/src/main/scala/example/Main.scala, 6247, 6247, 6264)
+something's wrong: no file:///C:/Users/RodrigoBlanco(AlfaFo/Desktop/ejemplo-spark/src/main/scala/example/Main.scala in org.apache.spark.sql.Dataset[<error>]RangePosition(file:///C:/Users/RodrigoBlanco(AlfaFo/Desktop/ejemplo-spark/src/main/scala/example/Main.scala, 6247, 6247, 6257)
+2026.03.04 11:41:25 INFO  compiling root (1 scala source)
+2026.03.04 11:41:25 INFO  time: compiled root in 0.21s
+2026.03.04 11:41:55 INFO  compiling root (1 scala source)
+2026.03.04 11:41:55 INFO  time: compiled root in 0.2s
+2026.03.04 11:42:08 INFO  compiling root (1 scala source)
+2026.03.04 11:42:08 INFO  time: compiled root in 0.91s
+2026.03.04 11:42:15 INFO  compiling root (1 scala source)
+2026.03.04 11:42:15 INFO  time: compiled root in 0.92s
+2026.03.04 11:44:06 INFO  compiling root (1 scala source)
+2026.03.04 11:44:06 INFO  time: compiled root in 0.94s
+2026.03.04 11:56:15 INFO  compiling root (1 scala source)
+2026.03.04 11:56:15 INFO  time: compiled root in 0.94s
+2026.03.04 11:57:59 INFO  compiling root (1 scala source)
+2026.03.04 11:57:59 INFO  time: compiled root in 0.97s
+2026.03.04 11:59:22 INFO  compiling root (1 scala source)
+2026.03.04 11:59:22 INFO  time: compiled root in 0.95s
+2026.03.04 11:59:57 INFO  compiling root (1 scala source)
+2026.03.04 11:59:57 INFO  time: compiled root in 0.22s
+2026.03.04 12:00:01 INFO  compiling root (1 scala source)
+2026.03.04 12:00:01 INFO  time: compiled root in 0.88s
+2026.03.04 12:02:20 INFO  compiling root (1 scala source)
+2026.03.04 12:02:20 INFO  time: compiled root in 0.94s
+2026.03.04 12:06:55 INFO  compiling root (1 scala source)
+2026.03.04 12:06:55 INFO  time: compiled root in 0.17s
+2026.03.04 12:06:55 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:06:58 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:07:00 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:07:10 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:07:11 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:07:18 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:07:19 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:07:22 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:07:22 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:07:24 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:07:25 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:07:28 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:07:29 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:07:30 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:07:36 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:07:37 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:07:37 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:07:38 INFO  compiling root (1 scala source)
+2026.03.04 12:07:38 INFO  time: compiled root in 0.17s
+2026.03.04 12:07:38 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:07:43 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:07:43 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:07:55 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:08:02 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:08:05 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:08:07 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:08:26 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:08:32 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:08:32 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:08:32 WARN  Could not find 'cast' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. 
+2026.03.04 12:08:32 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\.metals\.reports\metals-full\2026-03-03\r_empty-definition_(root)_11-29-40-143.md")
+2026.03.04 12:08:33 INFO  compiling root (1 scala source)
+2026.03.04 12:08:33 INFO  time: compiled root in 0.24s
+2026.03.04 12:08:33 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:08:53 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:09:02 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:09:03 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:09:03 INFO  compiling root (1 scala source)
+2026.03.04 12:09:03 INFO  time: compiled root in 0.93s
+2026.03.04 12:09:18 INFO  compiling root (1 scala source)
+2026.03.04 12:09:18 INFO  time: compiled root in 0.94s
+2026.03.04 12:09:19 INFO  compiling root (1 scala source)
+2026.03.04 12:09:19 INFO  time: compiled root in 0.33s
+2026.03.04 12:09:40 INFO  compiling root (1 scala source)
+2026.03.04 12:09:40 INFO  time: compiled root in 0.23s
+2026.03.04 12:09:40 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:09:48 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:09:48 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:09:50 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:09:50 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:09:52 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:09:53 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:09:54 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:09:55 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:09:56 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:09:56 INFO  compiling root (1 scala source)
+2026.03.04 12:09:56 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:09:56 INFO  time: compiled root in 0.97s
+2026.03.04 12:10:02 INFO  compiling root (1 scala source)
+2026.03.04 12:10:02 INFO  time: compiled root in 0.9s
+2026.03.04 12:10:06 INFO  compiling root (1 scala source)
+2026.03.04 12:10:06 INFO  time: compiled root in 0.88s
+2026.03.04 12:10:49 INFO  compiling root (1 scala source)
+2026.03.04 12:10:49 INFO  time: compiled root in 0.97s
+mar 04, 2026 12:10:50 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13440
+2026.03.04 12:10:55 INFO  compiling root (1 scala source)
+2026.03.04 12:10:55 INFO  time: compiled root in 0.91s
+2026.03.04 12:11:54 INFO  compiling root (1 scala source)
+2026.03.04 12:11:54 INFO  time: compiled root in 0.98s
+2026.03.04 12:12:53 INFO  compiling root (1 scala source)
+2026.03.04 12:12:53 INFO  time: compiled root in 0.99s
+2026.03.04 12:13:36 INFO  compiling root (1 scala source)
+2026.03.04 12:13:36 INFO  time: compiled root in 0.99s
+2026.03.04 12:15:24 INFO  compiling root (1 scala source)
+2026.03.04 12:15:24 INFO  time: compiled root in 0.96s
+2026.03.04 12:15:40 INFO  compiling root (1 scala source)
+2026.03.04 12:15:40 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:15:40 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:15:40 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:15:40 INFO  time: compiled root in 0.92s
+mar 04, 2026 12:15:53 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14018
+2026.03.04 12:16:02 INFO  compiling root (1 scala source)
+2026.03.04 12:16:02 INFO  time: compiled root in 0.9s
+2026.03.04 12:17:09 INFO  compiling root (1 scala source)
+2026.03.04 12:17:09 INFO  time: compiled root in 0.25s
+mar 04, 2026 12:17:23 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+mar 04, 2026 12:17:24 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+mar 04, 2026 12:17:26 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+mar 04, 2026 12:17:29 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2026.03.04 12:17:33 INFO  compiling root (1 scala source)
+mar 04, 2026 12:17:33 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2026.03.04 12:17:33 INFO  time: compiled root in 0.95s
+2026.03.04 12:17:48 INFO  compiling root (1 scala source)
+2026.03.04 12:17:48 INFO  time: compiled root in 0.9s
+2026.03.04 12:17:57 INFO  compiling root (1 scala source)
+2026.03.04 12:17:57 INFO  time: compiled root in 0.89s
+2026.03.04 12:18:05 INFO  compiling root (1 scala source)
+2026.03.04 12:18:05 INFO  time: compiled root in 0.91s
+2026.03.04 12:23:01 INFO  compiling root (1 scala source)
+2026.03.04 12:23:01 INFO  time: compiled root in 0.98s
+2026.03.04 12:23:37 INFO  compiling root (1 scala source)
+2026.03.04 12:23:37 INFO  time: compiled root in 1s
+2026.03.04 12:24:38 INFO  compiling root (1 scala source)
+2026.03.04 12:24:38 INFO  time: compiled root in 0.99s
+2026.03.04 12:25:11 INFO  compiling root (1 scala source)
+2026.03.04 12:25:11 INFO  time: compiled root in 0.91s
+2026.03.04 12:25:32 INFO  compiling root (1 scala source)
+2026.03.04 12:25:32 INFO  time: compiled root in 0.9s
+2026.03.04 12:25:45 INFO  compiling root (1 scala source)
+2026.03.04 12:25:45 INFO  time: compiled root in 0.96s
+2026.03.04 12:25:55 INFO  compiling root (1 scala source)
+2026.03.04 12:25:55 INFO  time: compiled root in 0.94s
+2026.03.04 12:25:58 INFO  compiling root (1 scala source)
+2026.03.04 12:25:59 INFO  time: compiled root in 1.02s
+2026.03.04 12:26:07 INFO  compiling root (1 scala source)
+2026.03.04 12:26:07 INFO  time: compiled root in 0.93s
+2026.03.04 12:26:19 INFO  compiling root (1 scala source)
+2026.03.04 12:26:19 INFO  time: compiled root in 0.95s
+2026.03.04 12:32:13 INFO  compiling root (1 scala source)
+2026.03.04 12:32:14 INFO  time: compiled root in 1.01s
+mar 04, 2026 12:42:54 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16406
+2026.03.04 12:43:13 INFO  compiling root (1 scala source)
+2026.03.04 12:43:13 INFO  time: compiled root in 0.25s
+2026.03.04 12:43:15 INFO  compiling root (1 scala source)
+2026.03.04 12:43:15 INFO  time: compiled root in 0.23s
+2026.03.04 12:43:18 INFO  compiling root (1 scala source)
+2026.03.04 12:43:18 INFO  time: compiled root in 0.21s
+2026.03.04 12:43:21 INFO  compiling root (1 scala source)
+2026.03.04 12:43:21 INFO  time: compiled root in 0.92s
+2026.03.04 12:43:31 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:43:31 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:43:31 INFO  compiling root (1 scala source)
+2026.03.04 12:43:31 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:43:31 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:43:32 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:43:31 INFO  time: compiled root in 0.95s
+mar 04, 2026 12:43:33 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16640
+2026.03.04 12:43:33 INFO  compiling root (1 scala source)
+2026.03.04 12:43:33 INFO  time: compiled root in 0.38s
+mar 04, 2026 12:44:36 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16727
+2026.03.04 12:44:40 INFO  compiling root (1 scala source)
+2026.03.04 12:44:41 INFO  time: compiled root in 1.05s
+2026.03.04 12:44:57 INFO  compiling root (1 scala source)
+2026.03.04 12:44:57 INFO  time: compiled root in 0.94s
+2026.03.04 12:45:03 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:45:03 INFO  compiling root (1 scala source)
+2026.03.04 12:45:03 INFO  time: compiled root in 0.94s
+2026.03.04 12:45:04 INFO  compiling root (1 scala source)
+2026.03.04 12:45:04 INFO  time: compiled root in 0.39s
+2026.03.04 12:46:38 INFO  compiling root (1 scala source)
+2026.03.04 12:46:38 INFO  time: compiled root in 0.18s
+2026.03.04 12:46:39 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:46:39 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:46:39 INFO  compiling root (1 scala source)
+2026.03.04 12:46:39 INFO  time: compiled root in 0.24s
+2026.03.04 12:46:40 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:46:43 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:46:43 INFO  compiling root (1 scala source)
+2026.03.04 12:46:43 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:46:43 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:46:43 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:46:43 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:46:43 INFO  time: compiled root in 0.22s
+2026.03.04 12:46:43 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:46:46 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:46:46 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:46:46 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:46:47 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:46:48 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:46:48 WARN  Could not load snapshot text for C:\Users\RodrigoBlanco(AlfaFo\Desktop\ejemplo-spark\src\main\scala\example\Main.scala
+2026.03.04 12:46:48 INFO  compiling root (1 scala source)
+2026.03.04 12:46:48 INFO  time: compiled root in 0.93s
+2026.03.04 12:46:55 INFO  compiling root (1 scala source)
+2026.03.04 12:46:55 INFO  time: compiled root in 0.93s
+2026.03.04 12:47:02 INFO  compiling root (1 scala source)
+2026.03.04 12:47:02 INFO  time: compiled root in 0.98s
+2026.03.04 12:49:06 INFO  compiling root (1 scala source)
+2026.03.04 12:49:06 INFO  time: compiled root in 0.28s
+2026.03.04 12:49:23 INFO  compiling root (1 scala source)
+2026.03.04 12:49:23 INFO  time: compiled root in 0.21s
+mar 04, 2026 12:49:28 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17371
+2026.03.04 12:49:31 INFO  compiling root (1 scala source)
+2026.03.04 12:49:31 INFO  time: compiled root in 0.2s
+2026.03.04 12:49:37 INFO  compiling root (1 scala source)
+2026.03.04 12:49:38 INFO  time: compiled root in 1.01s
+2026.03.04 12:50:53 INFO  compiling root (1 scala source)
+2026.03.04 12:50:53 INFO  time: compiled root in 0.24s
+2026.03.04 12:51:01 INFO  compiling root (1 scala source)
+2026.03.04 12:51:01 INFO  time: compiled root in 0.97s
+2026.03.04 12:51:05 INFO  compiling root (1 scala source)
+2026.03.04 12:51:06 INFO  time: compiled root in 1s
+2026.03.04 12:51:54 INFO  compiling root (1 scala source)
+2026.03.04 12:51:54 INFO  time: compiled root in 0.98s
+2026.03.04 12:53:46 INFO  compiling root (1 scala source)
+2026.03.04 12:53:46 INFO  time: compiled root in 0.19s
+2026.03.04 12:53:59 INFO  compiling root (1 scala source)
+2026.03.04 12:53:59 INFO  time: compiled root in 0.21s
+2026.03.04 12:54:02 INFO  compiling root (1 scala source)
+2026.03.04 12:54:02 INFO  time: compiled root in 0.94s
+2026.03.04 12:55:32 INFO  compiling root (1 scala source)
+2026.03.04 12:55:32 INFO  time: compiled root in 0.25s
+2026.03.04 12:55:41 INFO  compiling root (1 scala source)
+2026.03.04 12:55:41 INFO  time: compiled root in 0.22s
+2026.03.04 12:55:46 INFO  compiling root (1 scala source)
+2026.03.04 12:55:46 INFO  time: compiled root in 0.21s
+2026.03.04 12:56:09 INFO  compiling root (1 scala source)
+2026.03.04 12:56:09 INFO  time: compiled root in 0.21s
+2026.03.04 12:56:17 INFO  compiling root (1 scala source)
+2026.03.04 12:56:17 INFO  time: compiled root in 0.95s
+2026.03.04 12:56:21 INFO  compiling root (1 scala source)
+2026.03.04 12:56:21 INFO  time: compiled root in 0.22s
+2026.03.04 12:57:46 INFO  compiling root (1 scala source)
+2026.03.04 12:57:47 INFO  time: compiled root in 1.1s
+2026.03.04 12:58:31 INFO  compiling root (1 scala source)
+2026.03.04 12:58:32 INFO  time: compiled root in 1.1s
+2026.03.04 13:07:14 INFO  compiling root (1 scala source)
+2026.03.04 13:07:15 INFO  time: compiled root in 1.1s
+2026.03.04 13:07:26 INFO  compiling root (1 scala source)
+2026.03.04 13:07:27 INFO  time: compiled root in 1.02s

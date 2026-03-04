@@ -11,7 +11,7 @@ import org.apache.spark.sql.Dataset
 object Main {
   def main(args: Array[String]): Unit = {
 
-    ejercicioDataFrame()
+    usoDataFrame()
 
   }
 
@@ -140,7 +140,28 @@ object Main {
 
       df.select(columna, nuevaColumna.alias("Columna con suma"), columnaString.alias("Columna rara")).show(truncate = false)
 
-      df.filter($"Open" > $"Close" && substring($"Date", 1, 4) === "2009" && abs($"Open" - $"Close")).show()
+      df.filter($"Open" > $"Close" && substring($"Date", 1, 4) === "2009").show()
+
+      //Creamos la columna del año
+      val year = substring($"Date", 1, 4)
+
+      //Utilizar ventanas: decirle a Spark que "piense" el df en base a una partición y un orden
+      val ventana = Window 
+        .partitionBy(year)
+        .orderBy($"Date")
+
+      df.select($"Date", $"Volume")
+        .withColumn("volumen_acumulado", 
+            sum($"Volume").over(ventana)) //Vamos a ver el volumen acumulado cada día desde el principio del año
+        .withColumn("Ranking", row_number().over(ventana)) //Contar las filas acumuladas
+        .withColumn("Volumen anterior", lag($"Volume", 1, 0).over(ventana)) //Retroceder el valor en un registro
+        .withColumn("Volumen siguiente", lead($"Volume", 1, 0).over(ventana)) //Subir el valor un registro
+        .show() 
+
+      //Ventana para calcular la media móvil de 5 días
+      val ventanaMovil = Window 
+        .orderBy($"Date")
+        .rowsBetween(-4, 0)
 
       //Día de mayor volumen
       val maxVol = df.agg(max($"Volume").alias("Max_Vol"))
@@ -162,6 +183,11 @@ object Main {
         .orderBy($"Year")
 
       volumenMedioAnual.show()
+
+    df.explain("formatted") //Muestra el physical plan formateado
+    df.explain(true) //Muestra el Parsed, Analyzed, Optimized y Physical Plan
+
+    volumenMedioAnual.explain(true) //Muestra lo mismo pero de la agregación realizada
 
   }
 
@@ -212,10 +238,6 @@ object Main {
             avg($"Rendimiento").alias("Rendimiento medio"))
 
     tendencias.show()
-
-
-    
-
 
   }
 }
