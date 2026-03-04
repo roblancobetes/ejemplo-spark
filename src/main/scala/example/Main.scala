@@ -1,9 +1,9 @@
 package example
 
 import org.apache.spark.sql.SparkSession
-import org.apache.spark.sql.functions.{col, concat, lit}
+import org.apache.spark.sql.functions._
 import org.apache.spark.{SparkContext, SparkConf}
-import org.apache.spark.sql.types.StringType
+import org.apache.spark.sql.types.{StringType, LongType}
 
 
 object Main {
@@ -137,6 +137,29 @@ object Main {
       val columnaString = concat(columna.cast(StringType), lit("Hola"))
 
       df.select(columna, nuevaColumna.alias("Columna con suma"), columnaString.alias("Columna rara")).show(truncate = false)
+
+      df.filter($"Open" > $"Close" && substring($"Date", 1, 4) === "2009" && abs($"Open" - $"Close")).show()
+
+      //Día de mayor volumen
+      val maxVol = df.agg(max($"Volume").alias("Max_Vol"))
+
+      val maxVolDay = df.join(maxVol, df("Volume") === maxVol("Max_Vol"), "left")
+          .select($"Date", $"Volume", $"Open", $"Close", maxVol("Max_Vol"))
+
+      maxVolDay.show()
+
+      val maxVolumeDay = df.
+          orderBy(desc("Volume"))
+          .select("Date", "Volume")
+          .limit(1)
+
+      val volumenMedioAnual = df
+        .withColumn("Year", substring($"Date", 1, 4))
+        .groupBy($"Year")
+        .agg(avg($"Volume").alias("Vol_Medio"))
+        .orderBy($"Year")
+
+      volumenMedioAnual.show()
 
   }
 }
