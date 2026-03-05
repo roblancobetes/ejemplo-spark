@@ -2154,3 +2154,111 @@ WARNING: Unmatched cancel notification for request id 17686
 2026.03.05 12:12:27 INFO  time: compiled root in 1.04s
 2026.03.05 12:12:34 INFO  compiling root (1 scala source)
 2026.03.05 12:12:35 INFO  time: compiled root in 1.05s
+2026.03.05 12:32:01 INFO  compiling root (1 scala source)
+2026.03.05 12:32:01 INFO  time: compiled root in 0.97s
+mar 05, 2026 12:54:48 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18923
+2026.03.05 12:54:59 INFO  compiling root (1 scala source)
+2026.03.05 12:54:59 INFO  time: compiled root in 0.24s
+2026.03.05 12:55:03 INFO  compiling root (1 scala source)
+2026.03.05 12:55:03 INFO  time: compiled root in 0.22s
+2026.03.05 12:55:05 INFO  compiling root (1 scala source)
+2026.03.05 12:55:05 INFO  time: compiled root in 0.21s
+2026.03.05 12:55:07 INFO  compiling root (1 scala source)
+2026.03.05 12:55:07 INFO  time: compiled root in 0.22s
+2026.03.05 12:55:09 INFO  compiling root (1 scala source)
+2026.03.05 12:55:09 INFO  time: compiled root in 0.23s
+2026.03.05 12:55:45 INFO  compiling root (1 scala source)
+2026.03.05 12:55:45 INFO  time: compiled root in 0.23s
+2026.03.05 12:55:58 INFO  compiling root (1 scala source)
+2026.03.05 12:55:58 INFO  time: compiled root in 0.14s
+2026.03.05 12:56:00 INFO  compiling root (1 scala source)
+2026.03.05 12:56:00 INFO  time: compiled root in 0.23s
+2026.03.05 12:56:34 INFO  compiling root (1 scala source)
+2026.03.05 12:56:34 INFO  time: compiled root in 0.24s
+2026.03.05 12:57:09 INFO  compiling root (1 scala source)
+2026.03.05 12:57:09 INFO  time: compiled root in 0.98s
+2026.03.05 12:57:27 INFO  compiling root (1 scala source)
+2026.03.05 12:57:27 INFO  time: compiled root in 0.93s
+2026.03.05 12:57:48 INFO  compiling root (1 scala source)
+2026.03.05 12:57:48 INFO  time: compiled root in 0.89s
+2026.03.05 12:58:02 INFO  compiling root (1 scala source)
+2026.03.05 12:58:02 INFO  time: compiled root in 0.9s
+2026.03.05 12:58:20 INFO  compiling root (1 scala source)
+2026.03.05 12:58:20 INFO  time: compiled root in 0.2s
+2026.03.05 12:58:25 INFO  compiling root (1 scala source)
+2026.03.05 12:58:25 INFO  time: compiled root in 0.2s
+2026.03.05 12:58:35 INFO  compiling root (1 scala source)
+2026.03.05 12:58:35 INFO  time: compiled root in 0.92s
+mar 05, 2026 12:58:39 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19910
+mar 05, 2026 12:58:47 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19991
+mar 05, 2026 12:58:53 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20086
+2026.03.05 12:58:57 INFO  compiling root (1 scala source)
+2026.03.05 12:58:57 INFO  time: compiled root in 0.2s
+2026.03.05 12:59:02 INFO  compiling root (1 scala source)
+2026.03.05 12:59:02 INFO  time: compiled root in 0.14s
+2026.03.05 13:00:05 INFO  compiling root (1 scala source)
+2026.03.05 13:00:05 INFO  time: compiled root in 0.17s
+2026.03.05 13:00:08 INFO  compiling root (1 scala source)
+2026.03.05 13:00:08 INFO  time: compiled root in 0.15s
+2026.03.05 13:00:30 INFO  compiling root (1 scala source)
+2026.03.05 13:00:30 INFO  time: compiled root in 0.16s
+2026.03.05 13:00:53 INFO  compiling root (1 scala source)
+2026.03.05 13:00:53 INFO  time: compiled root in 0.92s
+2026.03.05 13:01:37 INFO  compiling root (1 scala source)
+2026.03.05 13:01:37 INFO  time: compiled root in 0.17s
+2026.03.05 13:01:39 INFO  compiling root (1 scala source)
+2026.03.05 13:01:39 INFO  time: compiled root in 0.95s
+2026.03.05 13:02:17 INFO  compiling root (1 scala source)
+2026.03.05 13:02:17 INFO  time: compiled root in 0.98s
+2026.03.05 13:02:23 INFO  compiling root (1 scala source)
+2026.03.05 13:02:23 INFO  time: compiled root in 0.92s
+2026.03.05 13:02:28 INFO  compiling root (1 scala source)
+2026.03.05 13:02:28 INFO  time: compiled root in 0.93s
+2026.03.05 13:05:43 INFO  compiling root (1 scala source)
+2026.03.05 13:05:44 INFO  time: compiled root in 1s
+2026.03.05 13:05:47 INFO  compiling root (1 scala source)
+2026.03.05 13:05:47 INFO  time: compiled root in 1s
+2026.03.05 13:05:51 INFO  compiling root (1 scala source)
+2026.03.05 13:05:51 INFO  time: compiled root in 0.2s
+2026.03.05 13:06:04 INFO  compiling root (1 scala source)
+2026.03.05 13:06:04 INFO  time: compiled root in 0.14s
+2026.03.05 13:06:08 INFO  compiling root (1 scala source)
+2026.03.05 13:06:08 INFO  time: compiled root in 0.26s
+2026.03.05 13:06:17 INFO  compiling root (1 scala source)
+2026.03.05 13:06:17 INFO  time: compiled root in 0.2s
+2026.03.05 13:06:39 INFO  compiling root (1 scala source)
+2026.03.05 13:06:39 INFO  time: compiled root in 0.96s
+2026.03.05 13:08:23 INFO  compiling root (1 scala source)
+2026.03.05 13:08:23 INFO  time: compiled root in 0.98s
+2026.03.05 13:08:42 INFO  compiling root (1 scala source)
+2026.03.05 13:08:42 INFO  time: compiled root in 0.97s
+mar 05, 2026 1:09:18 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21606
+mar 05, 2026 1:09:23 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21666
+mar 05, 2026 1:09:26 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21725
+2026.03.05 13:09:49 INFO  compiling root (1 scala source)
+2026.03.05 13:09:49 INFO  time: compiled root in 0.98s
+2026.03.05 13:11:40 INFO  compiling root (1 scala source)
+2026.03.05 13:11:41 INFO  time: compiled root in 1.02s
+2026.03.05 13:16:08 INFO  compiling root (1 scala source)
+2026.03.05 13:16:08 INFO  time: compiled root in 0.25s
+mar 05, 2026 1:16:26 P. M. scala.meta.internal.pc.AutoImportsProvider$$anonfun$1 applyOrElse
+WARNING: Could not infer edits for example.Main, tree around the position were scala.reflect.internal.Trees$Ident,scala.reflect.internal.Trees$Apply,scala.reflect.internal.Trees$DefDef,scala.reflect.internal.Trees$Template,scala.reflect.internal.Trees$ModuleDef, auto import position was Some(AutoImportPosition(275,0,false))
+mar 05, 2026 1:16:27 P. M. scala.meta.internal.pc.AutoImportsProvider$$anonfun$1 applyOrElse
+WARNING: Could not infer edits for example.Main, tree around the position were scala.reflect.internal.Trees$Ident,scala.reflect.internal.Trees$Apply,scala.reflect.internal.Trees$DefDef,scala.reflect.internal.Trees$Template,scala.reflect.internal.Trees$ModuleDef, auto import position was Some(AutoImportPosition(275,0,false))
+mar 05, 2026 1:16:29 P. M. scala.meta.internal.pc.AutoImportsProvider$$anonfun$1 applyOrElse
+WARNING: Could not infer edits for example.Main, tree around the position were scala.reflect.internal.Trees$Ident,scala.reflect.internal.Trees$Apply,scala.reflect.internal.Trees$DefDef,scala.reflect.internal.Trees$Template,scala.reflect.internal.Trees$ModuleDef, auto import position was Some(AutoImportPosition(275,0,false))
+mar 05, 2026 1:16:29 P. M. scala.meta.internal.pc.AutoImportsProvider$$anonfun$1 applyOrElse
+WARNING: Could not infer edits for example.Main, tree around the position were scala.reflect.internal.Trees$Ident,scala.reflect.internal.Trees$Apply,scala.reflect.internal.Trees$DefDef,scala.reflect.internal.Trees$Template,scala.reflect.internal.Trees$ModuleDef, auto import position was Some(AutoImportPosition(275,0,false))
+mar 05, 2026 1:16:30 P. M. scala.meta.internal.pc.AutoImportsProvider$$anonfun$1 applyOrElse
+WARNING: Could not infer edits for example.Main, tree around the position were scala.reflect.internal.Trees$Ident,scala.reflect.internal.Trees$Apply,scala.reflect.internal.Trees$DefDef,scala.reflect.internal.Trees$Template,scala.reflect.internal.Trees$ModuleDef, auto import position was Some(AutoImportPosition(275,0,false))
+mar 05, 2026 1:16:32 P. M. scala.meta.internal.pc.AutoImportsProvider$$anonfun$1 applyOrElse
+WARNING: Could not infer edits for example.Main, tree around the position were scala.reflect.internal.Trees$Ident,scala.reflect.internal.Trees$Apply,scala.reflect.internal.Trees$DefDef,scala.reflect.internal.Trees$Template,scala.reflect.internal.Trees$ModuleDef, auto import position was Some(AutoImportPosition(275,0,false))
+2026.03.05 13:16:32 INFO  compiling root (1 scala source)
+2026.03.05 13:16:32 INFO  time: compiled root in 0.93s

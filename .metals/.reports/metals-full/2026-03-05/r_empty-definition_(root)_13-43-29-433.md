@@ -1,3 +1,14 @@
+error id: file:///C:/Users/RodrigoBlanco(AlfaFo/Desktop/ejemplo-spark/src/main/scala/example/Main.scala:example/Stock#low.
+file:///C:/Users/RodrigoBlanco(AlfaFo/Desktop/ejemplo-spark/src/main/scala/example/Main.scala
+empty definition using pc, found symbol in pc: 
+found definition using semanticdb; symbol example/Stock#low.
+empty definition using fallback
+non-local guesses:
+
+offset: 14075
+uri: file:///C:/Users/RodrigoBlanco(AlfaFo/Desktop/ejemplo-spark/src/main/scala/example/Main.scala
+text:
+```scala
 package example
 
 import org.apache.spark.sql.SparkSession
@@ -373,24 +384,8 @@ object Main {
 
     val diasAltoVolumen = ds.filter(_.volume > 1000000)
 
-    val dsRetorno = ds.map(s => 
-      StockConRetorno(s.date, 
-                      s.open, 
-                      s.high, 
-                      s.low, 
-                      s.close, 
-                      s.adjClose, 
-                      s.volume, 
-                      (s.close-s.open)/s.open))
+    val retornoIntraDia = ds.map(s => (s.close - s.open)/s.open)
 
-    dsRetorno.show()
-
-    val dsRetornoAlternativo = ds
-            .toDF
-            .withColumn("retornoIntraDia", ($"Close" - $"Open")/$"Open")
-            .as[StockConRetorno]
-
-    dsRetornoAlternativo.show()
     
 
   }
@@ -401,19 +396,15 @@ case class Stock(
   open: Double,
   close: Double,
   high: Double,
-  low: Double,
+  low@@: Double,
   adjClose: Double,
   volume: Long
 )
 
-case class StockConRetorno(
-  date: String,
-  open: Double,
-  close: Double,
-  high: Double,
-  low: Double,
-  adjClose: Double,
-  volume: Long,
-  retornoIntraDia: Double
-)
 
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: 
