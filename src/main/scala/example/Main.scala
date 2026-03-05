@@ -11,7 +11,7 @@ import org.apache.spark.sql.Dataset
 object Main {
   def main(args: Array[String]): Unit = {
 
-    simularEstrategia()
+    usoDataSets()
 
   }
 
@@ -331,17 +331,28 @@ object Main {
     groupBy($"Rentabilidad acumulada holdear" > $"Rentabilidad acumulada MMA")
     .agg(count("*").alias("Recuento de días")).show()
 
-  //Otro dato: sería incluir costes de comisiones
-  // Broker tradicional (1980-2000): 1%
-  // Broker online (2001-2018): 0,3%
-  // Hoy en día (2019-2020): 0,01%
+  //Otro dato: sería incluir costes de comisiones del 0,1%
   dfFinal.agg(sum(abs($"Evento")).alias("Total de operaciones")).show()
+
+  val comision = when(($"Evento" =!= /* != en Spark */lit(0)), lit(0.999))
+          .otherwise(lit(1))
+    
+  val dfComision = dfFinal
+      .withColumn("Comision", comision)
+      .withColumn("Rentabilidad diaria comisiones", $"Rentabilidad diaria MMA" * $"Comision")
+      .withColumn("Rentabilidad acumulada comisiones",
+          exp(sum(log($"Rentabilidad diaria comisiones")).over(ventanaFecha)))
+
+  dfComision.select("Rentabilidad diaria MMA", "Rentabilidad acumulada MMA", "Rentabilidad diaria comisiones", "Rentabilidad acumulada comisiones").show()
+
+  //Ver los datos finales (rentabilidades acumuladas el último día) con comisiones para MMA
+  dfComision.select("Date", "Rentabilidad acumulada comisiones", "Rentabilidad acumulada holdear").filter($"Date" === "2020-04-01").show()
+  
   
   }
+
+  def usoDataSets(): Unit = {}
 }
-
-
-
 
 case class Stock(
   date: String,
