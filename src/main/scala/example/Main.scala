@@ -11,7 +11,7 @@ import org.apache.spark.sql.Dataset
 object Main {
   def main(args: Array[String]): Unit = {
 
-    usoDataFrame()
+    simularEstrategia()
 
   }
 
@@ -160,8 +160,20 @@ object Main {
 
       //Ventana para calcular la media móvil de 5 días
       val ventanaMovil = Window 
-        .orderBy($"Date")
-        .rowsBetween(-4, 0)
+        .partitionBy(year) //Partición
+        .orderBy($"Date") //Orden
+        .rowsBetween(-4, 0) //Frame
+
+      val accionesMediaMovil = df
+          .withColumn("MMA5", avg($"Close").over(ventanaMovil))
+
+      accionesMediaMovil.show()
+
+      //Calcular volumen medio anual y añadirlo como columna a la tabla
+      val ventanaYear = Window.
+        partitionBy(year)
+
+      df.withColumn("Volumen Medio Anual", avg($"Volume").over(ventanaYear)).show()
 
       //Día de mayor volumen
       val maxVol = df.agg(max($"Volume").alias("Max_Vol"))
@@ -240,7 +252,59 @@ object Main {
     tendencias.show()
 
   }
+
+  //Método para comprobar si es mejor invertir/salir cuando se produce un cruce de la MMA30
+  def simularEstrategia(): Unit = {
+
+    val spark = SparkSession.builder()
+      .appName("ejemplo-spark")
+      .master("local[*]")
+      .getOrCreate()
+
+    val df = spark.read
+      .option("header", true)
+      .option("inferSchema", true)
+      .csv("data/AAPL.csv")
+
+    import spark.implicits._
+
+    //Crear la ventana y añadir la media móvil a los datos
+    val ventana30 = Window
+      .orderBy($"Date")
+      .rowsBetween(-29, 0)
+
+    val dfMMA30 = df.withColumn("MMA30", avg($"Adj Close").over(ventana30))
+
+    //Crear una columna de cruces: alcista (close(ayer) <= MMA30, close(hoy)> MMA30); bajista (close(ayer) >= MMA30, close(hoy) < MMA30)
+    val ventanaFecha = Window.
+      orderBy($"Date")
+
+    val cierreAnterior = lag($"Adj Close", 1, 0).over(ventanaFecha)
+    val MediaAnterior = lag($"MMA30", 1, 1).over(ventanaFecha)
+
+    val dfEstrategia = dfMMA30
+      .withColumn("Cierre anterior", cierreAnterior)
+      .withColumn("Media anterior", MediaAnterior)
+      .withColumn("Entry", $"Cierre anterior" <= $"Media anterior" && $"Adj Close" >= $"MMA30")
+      .withColumn("Exit", $"Cierre anterior" >= $"Media anterior" && $"Adj Close" <= $"MMA30")
+
+  //Evento será 1 si se entra, -1 si se sale y 0 si ni se entra ni se sale
+  //Posición es 1 si se está dentro, 0 si se está fuera
+  val dfEntradasSalidas = dfEstrategia
+    .withColumn("Evento", 
+          when($"Entry", lit(1))
+          .when($"Exit", lit(-1))
+          .otherwise(lit(0)))
+    .withColumn("Posicion", sum($"Evento").over(ventanaFecha))
+
+  dfEntradasSalidas.select("Date", "Adj Close", "MMA30", "Evento", "Posicion").show()
+
+  dfEntradasSalidas.groupBy($"Posicion").agg(count("*").alias("Total dias")).show()
+
+  }
 }
+
+
 
 
 case class Stock(
