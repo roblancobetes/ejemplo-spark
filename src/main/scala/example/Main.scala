@@ -301,6 +301,42 @@ object Main {
 
   dfEntradasSalidas.groupBy($"Posicion").agg(count("*").alias("Total dias")).show()
 
+  val dfRentabilidad = dfEntradasSalidas
+    .withColumn("Rentabilidad diaria MMA", 
+                  when($"Date" === "1980-12-12", 1)
+                  .when(lag($"Posicion", 1 /* Posiciones que retrocedo */)
+                        .over(ventanaFecha) === 1, $"Adj close"/cierreAnterior)
+                  .otherwise(lit(1))) //En caso de que se esté fuera
+    .withColumn("Rentabilidad diaria holdear", 
+                   when($"Date" === "1980-12-12", 1)
+                   .otherwise($"Adj close"/cierreAnterior))
+
+  //Muestro el dataframe con las rentabilidades diarias de ambas estrategias
+  dfRentabilidad.select("Date", "Adj Close", "MMA30", "Evento", "Posicion","Rentabilidad diaria MMA", "Rentabilidad diaria holdear").show()
+
+  val dfFinal = dfRentabilidad.withColumn("Rentabilidad acumulada MMA", 
+            exp(sum(log($"Rentabilidad diaria MMA")).over(ventanaFecha))) //Truco para hacer una multiplicación acumulada
+            //Alguien más sensato haría (si se pudiera) mul($"Rentabilidad diaria MMA").over(ventanaFecha)
+              .withColumn("Rentabilidad acumulada holdear", 
+            exp(sum(log($"Rentabilidad diaria holdear")).over(ventanaFecha))) //Lo mismo
+
+  //Muestra de forma acumulada la comparación entre las dos estrategias
+  dfFinal.select("Date", "Rentabilidad acumulada MMA", "Rentabilidad acumulada holdear").show()
+
+  //Ver los datos finales (rentabilidades acumuladas el último día)
+  dfFinal.select("Date", "Rentabilidad acumulada MMA", "Rentabilidad acumulada holdear").filter($"Date" === "2020-04-01").show()
+
+  //Ver cuánto tiempo fue mejor holdear y cuándo fue mejor MMA
+  dfFinal.
+    groupBy($"Rentabilidad acumulada holdear" > $"Rentabilidad acumulada MMA")
+    .agg(count("*").alias("Recuento de días")).show()
+
+  //Otro dato: sería incluir costes de comisiones
+  // Broker tradicional (1980-2000): 1%
+  // Broker online (2001-2018): 0,3%
+  // Hoy en día (2019-2020): 0,01%
+  dfFinal.agg(sum(abs($"Evento")).alias("Total de operaciones")).show()
+  
   }
 }
 
