@@ -6,12 +6,14 @@ import org.apache.spark.{SparkContext, SparkConf}
 import org.apache.spark.sql.types._
 import org.apache.spark.sql.expressions.Window
 import org.apache.spark.sql.Dataset
+import scala.math.{max => mathMax}
+import org.apache.spark.storage.StorageLevel
 
 
 object Main {
   def main(args: Array[String]): Unit = {
 
-    usoDatasets()
+    ejemploPersistencia()
 
   }
 
@@ -388,11 +390,84 @@ object Main {
     val dsRetornoAlternativo = ds
             .toDF
             .withColumn("retornoIntraDia", ($"Close" - $"Open")/$"Open")
+            //Las transformaciones en dataframes suelen ser más eficientes
+            //Eslogan: df para transformaciones, ds para tipado
             .as[StockConRetorno]
 
     dsRetornoAlternativo.show()
-    
 
+    val dsLimpio = ds.filter(sesion => 
+        sesion.date != null &&
+        sesion.open > 0 &&
+        sesion.high > mathMax(sesion.open, mathMax(sesion.low, sesion.close)) &&
+        sesion.low > 0 &&
+        sesion.adjClose > 0)
+
+    val duplicadosPorFecha = dsLimpio 
+      .groupByKey(_.date)
+      .count()
+      .filter(_._2 > 1)
+
+    duplicadosPorFecha.show()
+
+    //Añadir varias columnas calculadas: (cierre previo, retorno diario, rango, tendencia)
+    val w = Window
+      .orderBy($"date")
+
+    val dsAgrandado = ds.toDF()
+      .withColumn("cierreAnterior", lag("close", 1).over(w))
+      .withColumn("retornoDiario", (col("close") - col("cierreAnterior"))/col("cierreAnterior"))
+      .withColumn("rango", col("high") - col("low"))
+      .withColumn("tendencia", when($"close" > $"cierreAnterior", "Alcista").otherwise("Bajista"))
+      .as[StockColumnasExtra]
+  }
+
+  //Método con ejemplo de persistencia
+  def ejemploPersistencia(): Unit = {
+
+    val spark = SparkSession.builder()
+      .appName("ejemplo-spark")
+      .master("local[*]")
+      .getOrCreate()
+
+    val df = spark.read
+      .option("header", true)
+      .option("inferSchema", true)
+      .csv("data/AAPL.csv")
+
+    import spark.implicits._
+
+    //Vamos a hacer rendimiento diario, MMA de 30 días y algunas métricas
+    val ventana = Window  
+      .orderBy($"Date")
+      .rowsBetween(-29, 0)
+
+    val dfMedia = df 
+      .withColumn("MMA 30", avg($"Close").over(ventana))
+      .withColumn("Retorno", 
+      ($"Close" - lag($"Close", 1).over(Window.orderBy($"Date")))
+                /
+          lag($"Close", 1).over(Window.orderBy($"Date")))
+
+    dfMedia.filter($"Retorno" > 0).explain("formatted")
+    dfMedia.select(avg($"Retorno")).explain("formatted")
+    dfMedia.filter($"Close" > $"MMA 30").explain("formatted")
+
+    //Ahora con persistencia: ya no repite el mismo proceso para todas las acciones
+    dfMedia.persist()
+    dfMedia.count() //Generar una acción que materializa la persistencia
+    dfMedia.filter($"Retorno" > 0).explain("formatted")
+    dfMedia.select(avg($"Retorno")).explain("formatted")
+    dfMedia.filter($"Close" > $"MMA 30").explain("formatted")
+
+    //Diferentes opciones de persistencia: persist permite elegir el storage level
+    //MEMORY_ONLY
+    dfMedia.persist(StorageLevel.MEMORY_ONLY) //Sólo en memoria
+    dfMedia.persist(StorageLevel.DISK_ONLY) //Sólo en el disco
+    dfMedia.persist(StorageLevel.MEMORY_AND_DISK) //Primero en memoria, lo que no cabe en el disco
+
+    dfMedia.cache() //Equivale a dfMedia.persist(StorageLevel.MEMORY_ONLY) (suele ser la forma estándar de persistencia)
+  
   }
 }
 
@@ -416,4 +491,20 @@ case class StockConRetorno(
   volume: Long,
   retornoIntraDia: Double
 )
+
+case class StockColumnasExtra( 
+  date: String,
+  open: Double,
+  close: Double,
+  high: Double,
+  low: Double,
+  adjClose: Double,
+  volume: Long,
+  cierreAnterior: Double,
+  retornoDiario: Double,
+  rango: Double,
+  tendencia: String
+  )
+  
+
 
