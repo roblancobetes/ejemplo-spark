@@ -1,2 +1,21 @@
+# Scala / SBT
 /.bsp/
-target/
+/target/
+/out/
+/.bloop/
+.metals/
+.vscode/
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Scala
+*.class
+*.log
